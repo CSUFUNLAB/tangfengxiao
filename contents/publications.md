@@ -1,15 +1,16 @@
 ## JOURNALS
 - Zhiqi Guo, **Fengxiao Tang***, Linfeng Luo, Ming Zhao, Nei Kato. **A Survey on Applications of Large Language Model-Driven Digital Twins for Intelligent Network Optimization**. <u>IEEE Communications Surveys & Tutorials</u> (2025). (JCR Q1, IF=34.4)
 
-- **Fengxiao Tang**, Linfeng Luo, Zhiqi Guo, Ming Zhao, Nei Kato. **Semantic Twin Network: Bridging Real-World and Virtual Networks with Semantics**. <u>IEEE Wireless Communications</u> (2025). (JCR Q1, IF=10.9)
+- **Fengxiao Tang***, Linfeng Luo, Zhiqi Guo, Ming Zhao, Nei Kato. **Semantic Twin Network: Bridging Real-World and Virtual Networks with Semantics**. <u>IEEE Wireless Communications</u> (2025). (JCR Q1, IF=10.9)
 
 - Jingjing Tan, **Fengxiao Tang***, Ming Zhao, Nei Kato. **Outage Probability, Performance, and Fairness Analysis of Space-Air-Ground Integrated Network (SAGIN): UAV Altitude and Position Angle**. <u>IEEE Transactions on Wireless Communications</u> (2025). (JCR Q1, IF=10.7)
 
-- Bin Wang, Zhao Tian, **Fengxiao Tang**, Heng Pan, Wei She, Wei Liu. **Blockchain-Empowered Asynchronous Federated Reinforcement Learning for IoT-Based Traffic Trajectory Prediction**. <u>IEEE Internet of Things Journal</u> (2025). (JCR Q1, IF=8.9)
 
 - Yi Xu, Zhigang Chen, Ming Zhao, **Fengxiao Tang***, Yangfang Li, Jiaqi Liu, Nei Kato. **UVtrack: Multi-Modal Indoor Seamless Localization Using Ultra-Wideband Communication and Vision Sensors**. <u>IEEE Transactions on Wireless Communications</u> (2025). (JCR Q1, IF=8.2)
 
 - Ying Qiao, Shuyang Teng, Juan Luo, Peng Sun, Fan Li, **Fengxiao Tang**. **On-Orbit DNN Distributed Inference for Remote Sensing Images in Satellite Internet of Things**. <u>IEEE Internet of Things Journal</u> (2025). (JCR Q1, IF=8.9)
+
+- Bin Wang, Zhao Tian, **Fengxiao Tang**, Heng Pan, Wei She, Wei Liu. **Blockchain-Empowered Asynchronous Federated Reinforcement Learning for IoT-Based Traffic Trajectory Prediction**. <u>IEEE Internet of Things Journal</u> (2025). (JCR Q1, IF=8.9)
 
 - Yangfang Li, Mengquan Li, Cen Chen, Xiaofeng Zou, Hongen Shao, **Fengxiao Tang**, Kenli Li. **SimDiff: Point Cloud Acceleration by Utilizing Spatial Similarity and Differential Execution**. <u>  IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems</u> (2025). 
 
@@ -21,7 +22,7 @@
 
 - Zhuangye Luo, Feng Zeng, **Fengxiao Tang**, Nei Kato. **FCSQF: Flexible Traffic Control for ECT-aware Time Sensitive Networking**. <u>IEEE Transactions on Network Science and Engineering</u> (2025). (JCR Q1, IF=6.7)
 
-- Xinhong Liu, Yangfan Li, **Fengxiao Tang**, Ming Zhao. **LSAP: A Learned Structure-Aware Pruning Point Cloud Classification Approach for Cyber Physical Social Intelligence**. <u>Big Data Mining and Analytics</u> 8(4) (2025). (JCR Q1, IF=7.7)
+- Xinhong Liu, Yangfan Li, **Fengxiao Tang***, Ming Zhao. **LSAP: A Learned Structure-Aware Pruning Point Cloud Classification Approach for Cyber Physical Social Intelligence**. <u>Big Data Mining and Analytics</u> 8(4) (2025). (JCR Q1, IF=7.7)
 
 - Xun Yuan, Xiaonan Wang, **Fengxiao Tang***, Qingping Zhou, Ming Zhao, Nei Kato. **MPITE: Multidimensional Performance Evaluator for Interpretable and Traceable Network Performance Evaluation**. <u>IEEE/ACM Transactions on Networking</u> (2025).
 
@@ -31,7 +32,7 @@
 
 - J Tang, **Fengxiao Tang***, S Long, Ming Zhao, Nei Kato. **Utilizing Large Language Models for Advanced Optimization and Intelligent Management in Space-Air-Ground Integrated Networks**. <u>IEEE Network</u> (2024). (JCR Q1)
 
-- O Bilal, S Asif, Ming Zhao, Y Li, **Fengxiao Tang**, Y Zhu. **Differential Evolution Optimization Based Ensemble Framework for Accurate Cervical Cancer Diagnosis**. <u>Applied Soft Computing</u> 167, 112366 (2024). (JCR Q1)
+- O Bilal, S Asif, Ming Zhao, Y Li, **Fengxiao Tang***, Y Zhu. **Differential Evolution Optimization Based Ensemble Framework for Accurate Cervical Cancer Diagnosis**. <u>Applied Soft Computing</u> 167, 112366 (2024). (JCR Q1)
 
 - J Tan, **Fengxiao Tang***, Ming Zhao, Nei Kato. **Outage Probability, Performance, Fairness Analysis of Space-Air-Ground Integrated Network (SAGIN): UAV Altitude and Position Angle**. <u>IEEE Transactions on Wireless Communications</u> (2024). (JCR Q1)
 
@@ -41,7 +42,7 @@
 
 - Cong Zhou, Baokang Zhao, **Fengxiao Tang**, Biao Han, Baosheng Wang. **Dynamic Multi-objective Service Function Chain Placement Based on Deep Reinforcement Learning**. <u>IEEE Transactions on Network and Service Management</u> (2024). (JCR Q1, IF=4.6)
 
-- **Fengxiao Tang**, Linfeng Luo, Zhiqi Guo, Y Li, Ming Zhao, Nei Kato. **Semi-Distributed Network Fault Diagnosis Based on Digital Twin Network in Highly Dynamic Heterogeneous Networks**. <u>IEEE Transactions on Mobile Computing</u> (JCR Q1, IF=7.7)
+- **Fengxiao Tang***, Linfeng Luo, Zhiqi Guo, Y Li, Ming Zhao, Nei Kato. **Semi-Distributed Network Fault Diagnosis Based on Digital Twin Network in Highly Dynamic Heterogeneous Networks**. <u>IEEE Transactions on Mobile Computing</u> (JCR Q1, IF=7.7)
 
 - Y Li, M Li, C Chen, X Zou, H Shao, **Fengxiao Tang**, K Li. **SimDiff: Point Cloud Acceleration by Utilizing Spatial Similarity and Differential Execution**. <u>IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems</u> (2024). (JCR Q2, IF=2.7)
 
@@ -49,7 +50,7 @@
 
 - Linfeng Luo, **Fengxiao Tang***, Xiyu Liu, Zhiqi Guo, Zihao Qiu, Ming Zhao. **Federated Hypergraph Learning with Hyperedge Completion**. arXiv:2408.05160 (2024).
 
-- **Fengxiao Tang**, Xiaonan Wang, Xun Yuan, Linfeng Luo, Ming Zhao, Nei Kato. **Large Language Model (LLM) Assisted End-to-End Network Health Management Based on Multi-Scale Semanticization**. arXiv:2406.08305 (2024).
+- **Fengxiao Tang***, Xiaonan Wang, Xun Yuan, Linfeng Luo, Ming Zhao, Nei Kato. **Large Language Model (LLM) Assisted End-to-End Network Health Management Based on Multi-Scale Semanticization**. arXiv:2406.08305 (2024).
 
 - Sohaib Asif, Ming Zhao, Yangfan Li, **Fengxiao Tang***, Yusen Zhu. **CFI-Net: A Choquet Fuzzy Integral Based Ensemble Network with PSO-Optimized Fuzzy Measures for Diagnosing Multiple Skin Diseases Including Mpox**. <u>IEEE Journal of Biomedical and Health Informatics</u> (2024). (JCR Q1, IF=7.1)
 
@@ -91,17 +92,17 @@
 
 - Qi Guo, **Fengxiao Tang**, Nei Kato. **Federated Reinforcement Learning-Based Resource Allocation for D2D-Aided Digital Twin Edge Networks in 6G Industrial IoT**. <u>IEEE Transactions on Industrial Informatics</u> 19(5):7228-7236 (2022). (JCR Q1, IF=11.7)
 
-- **Fengxiao Tang**, Xuehan Chen, Ming Zhao, Nei Kato. **The Roadmap of Communication and Networking in 6G for the Metaverse**. <u>IEEE Wireless Communications</u> (2023). (JCR Q1, IF=9.4, ESI 1% Highly Cited, Top10%)
+- **Fengxiao Tang***, Xuehan Chen, Ming Zhao, Nei Kato. **The Roadmap of Communication and Networking in 6G for the Metaverse**. <u>IEEE Wireless Communications</u> (2023). (JCR Q1, IF=9.4, ESI 1% Highly Cited, Top10%)
 
-- **Fengxiao Tang**, Linfeng Luo, Cong Wen, Ming Zhao. **Blockchain-Based Trusted Traffic Offloading in Space-Air-Ground Integrated Networks (SAGIN): A Federated Reinforcement Learning Approach**. <u>IEEE Journal on Selected Areas in Communications</u> (JCR Q1, IF=13.8)
+- **Fengxiao Tang***, Linfeng Luo, Cong Wen, Ming Zhao. **Blockchain-Based Trusted Traffic Offloading in Space-Air-Ground Integrated Networks (SAGIN): A Federated Reinforcement Learning Approach**. <u>IEEE Journal on Selected Areas in Communications</u> (JCR Q1, IF=13.8)
 
 - **Fengxiao Tang**, Hans Hofner, Nei Kato, Kazuma Kaneko, Yasutaka Yamashita, Masatake Hangai. **A Deep Reinforcement Learning Based Dynamic Traffic Offloading in Space-Air-Ground Integrated Networks (SAGIN)**. <u>IEEE Journal on Selected Areas in Communications</u> 40(1):276-289 (2022). (JCR Q1, IF=13.8)
 
 - Bomin Mao, **Fengxiao Tang**, Yuichi Kawamoto, Nei Kato*. **Optimizing Computation Offloading in Satellite-UAV-Served 6G IoT: A Deep Learning Approach**. <u>IEEE Network</u>, accepted. (JCR Q1, IF=6.8)
 
-- Sohaib Asif, Ming Zhao, **Fengxiao Tang**, Yusen Zhu. **A Deep Learning-Based Framework for Detecting COVID-19 Patients Using Chest X-Rays**. <u>Multimedia Systems</u> (2022). (JCR Q1, IF=22.973, Top10%)
+- Sohaib Asif, Ming Zhao, **Fengxiao Tang***, Yusen Zhu. **A Deep Learning-Based Framework for Detecting COVID-19 Patients Using Chest X-Rays**. <u>Multimedia Systems</u> (2022). (JCR Q1, IF=22.973, Top10%)
 
-- **Fengxiao Tang**, Xuehan Chen, Tiago Koketsu Rodrigues, Ming Zhao, Nei Kato. **Survey on Digital Twin Edge Networks (DITEN) Toward 6G**. <u>IEEE Open Journal of the Communications Society</u> (2022). (JCR Q1, IF=6.3, Top10%)
+- **Fengxiao Tang***, Xuehan Chen, Tiago Koketsu Rodrigues, Ming Zhao, Nei Kato. **Survey on Digital Twin Edge Networks (DITEN) Toward 6G**. <u>IEEE Open Journal of the Communications Society</u> (2022). (JCR Q1, IF=6.3, Top10%)
 
 - Bomin Mao, **Fengxiao Tang**, Yuichi Kawamoto, Nei Kato*. **AI Models for Green Communications Towards 6G**. <u>IEEE Communications Surveys & Tutorials</u> (2022). (JCR Q1, IF=10.693, ESI 1% Highly Cited)
 
