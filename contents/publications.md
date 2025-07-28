@@ -5,7 +5,7 @@
 
 - Jingjing Tan, **Fengxiao Tang***, Ming Zhao, Nei Kato. **Outage Probability, Performance, and Fairness Analysis of Space-Air-Ground Integrated Network (SAGIN): UAV Altitude and Position Angle**. <u>IEEE Transactions on Wireless Communications</u> (2025). (JCR Q1, IF=10.7)
 
-- Yi Xu, Zhigang Chen, Ming Zhao, **Fengxiao Tang***, Yangfang Li, Jiaqi Liu, Nei Kato. **UVtrack: Multi-Modal Indoor Seamless Localization Using Ultra-Wideband Communication and Vision Sensors**. <u>IEEE Transactions on Wireless Communications</u> (2025). (JCR Q1, IF=8.2)
+- Yi Xu, Zhigang Chen, Ming Zhao, **Fengxiao Tang***, Yangfang Li, Jiaqi Liu, Nei Kato. **UVtrack: Multi-Modal Indoor Seamless Localization Using Ultra-Wideband Communication and Vision Sensors**. <u>IEEE Open Journal of the Computer Society</u> (2025). (JCR Q1, IF=8.2)
 
 - Tiao Tan, **Fengxiao Tang***, Ming Zhao. **Adapting Network Information to Semantics for Generalizable and Plug-and-Play Multi-Scenario Network Diagnosis**. arXiv:2501.16842 (2025).
 
@@ -17,25 +17,16 @@
 
 - Xun Yuan, Xiaonan Wang, **Fengxiao Tang***, Qingping Zhou, Ming Zhao, Nei Kato. **MPITE: Multidimensional Performance Evaluator for Interpretable and Traceable Network Performance Evaluation**. <u>IEEE/ACM Transactions on Networking</u> (2025).
 
-- B Wang, Z Tian, **Fengxiao Tang**, H Pan, W She, W Liu. **Blockchain-Empowered Asynchronous Federated Reinforcement Learning for IoT-Based Traffic Trajectory Prediction**. <u>IEEE Internet of Things Journal</u> (2025). (JCR Q1)
-
 - Ying Qiao, Shuyang Teng, Juan Luo, Peng Sun, Fan Li, **Fengxiao Tang**. **On-Orbit DNN Distributed Inference for Remote Sensing Images in Satellite Internet of Things**. <u>IEEE Internet of Things Journal</u> (2025). (JCR Q1, IF=8.9)
 
 - Bin Wang, Zhao Tian, **Fengxiao Tang**, Heng Pan, Wei She, Wei Liu. **Blockchain-Empowered Asynchronous Federated Reinforcement Learning for IoT-Based Traffic Trajectory Prediction**. <u>IEEE Internet of Things Journal</u> (2025). (JCR Q1, IF=8.9)
-
-- Yangfang Li, Mengquan Li, Cen Chen, Xiaofeng Zou, Hongen Shao, **Fengxiao Tang**, Kenli Li. **SimDiff: Point Cloud Acceleration by Utilizing Spatial Similarity and Differential Execution**. <u>  IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems</u> (2025). 
 
 - Zheng Zhang, Feng Zeng, **Fengxiao Tang**. **Vehicle-Assisted Data Sensing in Vehicle Edge Metaverse: A Game Theory Approach**. <u> IEEE Transactions on Vehicular Technology</u> (2025). (JCR Q1, IF=6.1)
 
 - Q Guo, **Fengxiao Tang**, Nei Kato. **Routing for Space-Air-Ground Integrated Network With GAN-Powered Deep Reinforcement Learning**. <u>IEEE Transactions on Cognitive Communications and Networking</u> (2024). (JCR Q1)
 
-- J Tang, **Fengxiao Tang***, S Long, Ming Zhao, Nei Kato. **Utilizing Large Language Models for Advanced Optimization and Intelligent Management in Space-Air-Ground Integrated Networks**. <u>IEEE Network</u> (2024). (JCR Q1)
-
 - O Bilal, S Asif, Ming Zhao, Y Li, **Fengxiao Tang***, Y Zhu. **Differential Evolution Optimization Based Ensemble Framework for Accurate Cervical Cancer Diagnosis**. <u>Applied Soft Computing</u> 167, 112366 (2024). (JCR Q1)
 
-- J Tan, **Fengxiao Tang***, Ming Zhao, Nei Kato. **Outage Probability, Performance, Fairness Analysis of Space-Air-Ground Integrated Network (SAGIN): UAV Altitude and Position Angle**. <u>IEEE Transactions on Wireless Communications</u> (2024). (JCR Q1)
-
-- Y Qiao, S Teng, J Luo, P Sun, F Li, **Fengxiao Tang**. **On-Orbit DNN Distributed Inference for Remote Sensing Images in Satellite Internet of Things**. <u>IEEE Internet of Things Journal</u> (2024). (JCR Q1)
 
 - S Long, **Fengxiao Tang***, Y Li, T Tan, Z Jin, Ming Zhao, Nei Kato. **6G Comprehensive Intelligence: Network Operations and Optimization Based on Large Language Models**. <u>IEEE Network</u> (2024). (JCR Q1)
 
