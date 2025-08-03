@@ -7,9 +7,11 @@ tangfengxiao@csu.edu.cn
 #### Google Scolar
 https://scholar.google.com/citations?hl=zh-CN&user=_QJD5MgAAAAJ
 
-### Academic Services
+### IEEE Journal Editorial
 **Area Editor**：IEEE Internet of Thing Journal.\
-**Associate Editor**：IEEE Trans on Vehicular Technology.\
+**Associate Editor**：IEEE Trans on Vehicular Technology.
+
+### IEEE Conference Activities
 **Program Vice-Chair**：IEEE Scalcom, 2024.\
 **Workshop Co-Chair**,"Cooperative Communications and Computations in Space-Air-Ground-Sea Integrated Networks" in IEEE ICC 2024.\
 **Workshop Co-Chair**,"Cooperative Communications and Computations in Space-Air-Ground-Sea Integrated Networks" in IEEE ICC 2025.
