@@ -7,6 +7,14 @@ tangfengxiao@csu.edu.cn
 #### Google Scolar
 https://scholar.google.com/citations?hl=zh-CN&user=_QJD5MgAAAAJ
 
+### Academic Services
+**Area Editor**：IEEE Internet of Thing Journal.\
+**Associate Editor**：IEEE Trans on Vehicular Technology.\
+**Program Vice-Chair**：IEEE Scalcom, 2024.\
+**Workshop Co-Chair**,"Cooperative Communications and Computations in Space-Air-Ground-Sea Integrated Networks" in IEEE ICC 2024.\
+**Workshop Co-Chair**,"Cooperative Communications and Computations in Space-Air-Ground-Sea Integrated Networks" in IEEE ICC 2025.
+
+
 #### Academic Background
 Bachelor degree, Wuhan University of Technology, China, 2012.\
 Master degree, Central South University, China, 2015.\
