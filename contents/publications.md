@@ -42,7 +42,7 @@
 
 - **Fengxiao Tang***, Xiaonan Wang, Xun Yuan, Linfeng Luo, Ming Zhao, Nei Kato. **Large Language Model (LLM) Assisted End-to-End Network Health Management Based on Multi-Scale Semanticization**. arXiv:2406.08305 (2024).
 
-- Sohaib Asif, Ming Zhao, Yangfan Li, **Fengxiao Tang***, Yusen Zhu. **CFI-Net: A Choquet Fuzzy Integral Based Ensemble Network with PSO-Optimized Fuzzy Measures for Diagnosing Multiple Skin Diseases Including Mpox**. <u>IEEE Journal of Biomedical and Health Informatics</u> (2024). (JCR Q1, IF=7.1)
+- Sohaib Asif, Ming Zhao, Yangfan Li, **Fengxiao Tang**, Yusen Zhu. **CFI-Net: A Choquet Fuzzy Integral Based Ensemble Network with PSO-Optimized Fuzzy Measures for Diagnosing Multiple Skin Diseases Including Mpox**. <u>IEEE Journal of Biomedical and Health Informatics</u> (2024). (JCR Q1, IF=7.1)
 
 - Xuehan Chen, Linfeng Luo, **Fengxiao Tang***, Ming Zhao, Nei Kato. **AIGC-based Evolvable Digital Twin Networks: A Road to the Intelligent Metaverse**. <u>IEEE Network</u> (2024). (JCR Q1, IF=6.8)
 
@@ -52,17 +52,17 @@
 
 - Xuehan Chen, Jingjing Tan, Litian Kang, **Fengxiao Tang***, Ming Zhao, Nei Kato. **Frequency Selective Surface Towards 6G Communication Systems: A Contemporary Survey**. <u>IEEE Communications Surveys & Tutorials</u> (2024). (JCR Q1, IF=34.4)
 
-- Sohaib Asif, Ming Zhao, Yangfan Li, **Fengxiao Tang***, Yusen Zhu. **CGO-ensemble: Chaos Game Optimization Algorithm-Based Fusion of Deep Neural Networks for Accurate Mpox Detection**. <u>Neural Networks</u> (2024). (JCR Q1, IF=7.8, Top10%)
+- Sohaib Asif, Ming Zhao, Yangfan Li, **Fengxiao Tang**, Yusen Zhu. **CGO-ensemble: Chaos Game Optimization Algorithm-Based Fusion of Deep Neural Networks for Accurate Mpox Detection**. <u>Neural Networks</u> (2024). (JCR Q1, IF=7.8, Top10%)
 
-- Sohaib Asif, Ming Zhao, Yangfan Li, **Fengxiao Tang***, Saif Ur Rehman Khan, Yusen Zhu. **AI-Based Approaches for the Diagnosis of Mpox: Challenges and Future Prospects**. <u>Archives of Computational Methods in Engineering</u> (2024). (JCR Q1, IF=8.97)
+- Sohaib Asif, Ming Zhao, Yangfan Li, **Fengxiao Tang**, Saif Ur Rehman Khan, Yusen Zhu. **AI-Based Approaches for the Diagnosis of Mpox: Challenges and Future Prospects**. <u>Archives of Computational Methods in Engineering</u> (2024). (JCR Q1, IF=8.97)
 
-- Sohaib Asif, Ming Zhao, **Fengxiao Tang***, Yusen Zhu. **DCDS-Net: Deep Transfer Network Based on Depth-Wise Separable Convolution with Residual Connection for Diagnosing Gastrointestinal Diseases**. <u>Biomedical Signal Processing and Control</u> (2024). (JCR Q1, IF=5.1, Top10%)
+- Sohaib Asif, Ming Zhao, **Fengxiao Tang**, Yusen Zhu. **DCDS-Net: Deep Transfer Network Based on Depth-Wise Separable Convolution with Residual Connection for Diagnosing Gastrointestinal Diseases**. <u>Biomedical Signal Processing and Control</u> (2024). (JCR Q1, IF=5.1, Top10%)
 
 - Xunhua Dai, Zhiyu Lu, Xuehan Chen, Xinyi Xu, **Fengxiao Tang***. **Multi-Agent RL Based Jointly Trajectory Scheduling and Resource Allocation in NOMA-Assisted UAV Swarm Network**. <u>IEEE Internet of Things Journal</u> (2023). (JCR Q1, IF=8.2)
 
-- Sohaib Asif, Ming Zhao, **Fengxiao Tang***, Yusen Zhu, Baokang Zhao. **Metaheuristics Optimization-Based Ensemble of Deep Neural Networks for Mpox Disease Detection**. <u>Neural Networks</u> (2023). (JCR Q1, IF=7.8, Top10%)
+- Sohaib Asif, Ming Zhao, **Fengxiao Tang**, Yusen Zhu, Baokang Zhao. **Metaheuristics Optimization-Based Ensemble of Deep Neural Networks for Mpox Disease Detection**. <u>Neural Networks</u> (2023). (JCR Q1, IF=7.8, Top10%)
 
-- Sohaib Asif, Ming Zhao, **Fengxiao Tang***, Yusen Zhu. **An Enhanced Deep Learning Method for Multi-Class Brain Tumor Classification Using Deep Transfer Learning**. <u>Multimedia Tools and Applications</u> (2023). (JCR Q2, IF=3.6, Top10%)
+- Sohaib Asif, Ming Zhao, **Fengxiao Tang**, Yusen Zhu. **An Enhanced Deep Learning Method for Multi-Class Brain Tumor Classification Using Deep Transfer Learning**. <u>Multimedia Tools and Applications</u> (2023). (JCR Q2, IF=3.6, Top10%)
 
 - Xun Yuan, **Fengxiao Tang***, Ming Zhao, Nei Kato. **Joint Rate and Coverage Optimization for the THz/RF Multi-Band Communications of Space-Air-Ground Integrated Network in 6G**. <u>IEEE Transactions on Wireless Communications</u> (2023). (JCR Q1, IF=8.9)
 
@@ -90,7 +90,7 @@
 
 - Bomin Mao, **Fengxiao Tang**, Yuichi Kawamoto, Nei Kato*. **Optimizing Computation Offloading in Satellite-UAV-Served 6G IoT: A Deep Learning Approach**. <u>IEEE Network</u>, accepted. (JCR Q1, IF=6.8)
 
-- Sohaib Asif, Ming Zhao, **Fengxiao Tang***, Yusen Zhu. **A Deep Learning-Based Framework for Detecting COVID-19 Patients Using Chest X-Rays**. <u>Multimedia Systems</u> (2022). (JCR Q1, IF=22.973, Top10%)
+- Sohaib Asif, Ming Zhao, **Fengxiao Tang**, Yusen Zhu. **A Deep Learning-Based Framework for Detecting COVID-19 Patients Using Chest X-Rays**. <u>Multimedia Systems</u> (2022). (JCR Q1, IF=22.973, Top10%)
 
 - **Fengxiao Tang***, Xuehan Chen, Tiago Koketsu Rodrigues, Ming Zhao, Nei Kato. **Survey on Digital Twin Edge Networks (DITEN) Toward 6G**. <u>IEEE Open Journal of the Communications Society</u> (2022). (JCR Q1, IF=6.3, Top10%)
 
