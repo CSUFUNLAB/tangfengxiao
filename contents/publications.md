@@ -56,13 +56,13 @@
 
 - Sohaib Asif, Ming Zhao, Yangfan Li, **Fengxiao Tang**, Saif Ur Rehman Khan, Yusen Zhu. **AI-Based Approaches for the Diagnosis of Mpox: Challenges and Future Prospects**. <u>Archives of Computational Methods in Engineering</u> (2024). (JCR Q1, IF=8.97)
 
-- Sohaib Asif, Ming Zhao, **Fengxiao Tang**, Yusen Zhu. **DCDS-Net: Deep Transfer Network Based on Depth-Wise Separable Convolution with Residual Connection for Diagnosing Gastrointestinal Diseases**. <u>Biomedical Signal Processing and Control</u> (2024). (JCR Q1, IF=5.1, Top10%)
+- Sohaib Asif, Ming Zhao, **Fengxiao Tang***, Yusen Zhu. **DCDS-Net: Deep Transfer Network Based on Depth-Wise Separable Convolution with Residual Connection for Diagnosing Gastrointestinal Diseases**. <u>Biomedical Signal Processing and Control</u> (2024). (JCR Q1, IF=5.1, Top10%)
 
 - Xunhua Dai, Zhiyu Lu, Xuehan Chen, Xinyi Xu, **Fengxiao Tang***. **Multi-Agent RL Based Jointly Trajectory Scheduling and Resource Allocation in NOMA-Assisted UAV Swarm Network**. <u>IEEE Internet of Things Journal</u> (2023). (JCR Q1, IF=8.2)
 
-- Sohaib Asif, Ming Zhao, **Fengxiao Tang**, Yusen Zhu, Baokang Zhao. **Metaheuristics Optimization-Based Ensemble of Deep Neural Networks for Mpox Disease Detection**. <u>Neural Networks</u> (2023). (JCR Q1, IF=7.8, Top10%)
+- Sohaib Asif, Ming Zhao, **Fengxiao Tang***, Yusen Zhu, Baokang Zhao. **Metaheuristics Optimization-Based Ensemble of Deep Neural Networks for Mpox Disease Detection**. <u>Neural Networks</u> (2023). (JCR Q1, IF=7.8, Top10%)
 
-- Sohaib Asif, Ming Zhao, **Fengxiao Tang**, Yusen Zhu. **An Enhanced Deep Learning Method for Multi-Class Brain Tumor Classification Using Deep Transfer Learning**. <u>Multimedia Tools and Applications</u> (2023). (JCR Q2, IF=3.6, Top10%)
+- Sohaib Asif, Ming Zhao, **Fengxiao Tang***, Yusen Zhu. **An Enhanced Deep Learning Method for Multi-Class Brain Tumor Classification Using Deep Transfer Learning**. <u>Multimedia Tools and Applications</u> (2023). (JCR Q2, IF=3.6, Top10%)
 
 - Xun Yuan, **Fengxiao Tang***, Ming Zhao, Nei Kato. **Joint Rate and Coverage Optimization for the THz/RF Multi-Band Communications of Space-Air-Ground Integrated Network in 6G**. <u>IEEE Transactions on Wireless Communications</u> (2023). (JCR Q1, IF=8.9)
 
@@ -90,7 +90,7 @@
 
 - Bomin Mao, **Fengxiao Tang**, Yuichi Kawamoto, Nei Kato*. **Optimizing Computation Offloading in Satellite-UAV-Served 6G IoT: A Deep Learning Approach**. <u>IEEE Network</u>, accepted. (JCR Q1, IF=6.8)
 
-- Sohaib Asif, Ming Zhao, **Fengxiao Tang**, Yusen Zhu. **A Deep Learning-Based Framework for Detecting COVID-19 Patients Using Chest X-Rays**. <u>Multimedia Systems</u> (2022). (JCR Q1, IF=22.973, Top10%)
+- Sohaib Asif, Ming Zhao, **Fengxiao Tang***, Yusen Zhu. **A Deep Learning-Based Framework for Detecting COVID-19 Patients Using Chest X-Rays**. <u>Multimedia Systems</u> (2022). (JCR Q1, IF=22.973, Top10%)
 
 - **Fengxiao Tang***, Xuehan Chen, Tiago Koketsu Rodrigues, Ming Zhao, Nei Kato. **Survey on Digital Twin Edge Networks (DITEN) Toward 6G**. <u>IEEE Open Journal of the Communications Society</u> (2022). (JCR Q1, IF=6.3, Top10%)
 
@@ -148,13 +148,13 @@
 
 - Xinhong Liu, Xiaoliang Li, Yangfan Li*, **Fengxiao Tang***. **RTdetector: Deep Transformer Networks for Time Series Anomaly Detection Based on Reconstruction Trend**. <u>IJCAI 2025</u>.
 
-- S Long, W Wu, X Yuan, Ming Zhao, **Fengxiao Tang**, Nei Kato. **Performance Analysis of Space-Air-Ground Integrated Networks of FSO/THz/RF Multi-Band Communication**. <u>IEEE ICC 2025</u>, Montreal, Canada.
+- S Long, W Wu, X Yuan, Ming Zhao, **Fengxiao Tang***, Nei Kato. **Performance Analysis of Space-Air-Ground Integrated Networks of FSO/THz/RF Multi-Band Communication**. <u>IEEE ICC 2025</u>, Montreal, Canada.
 
-- S Long, Q Zhang, Linfeng Luo, Ming Zhao, **Fengxiao Tang**, Nei Kato. **Online Asynchronous Flow Scheduling Mechanism for 5G-TSN Networks**. <u>IEEE ICC 2025</u>, Montreal, Canada. (**Best Paper Award**)
+- S Long, Q Zhang, Linfeng Luo, Ming Zhao, **Fengxiao Tang***, Nei Kato. **Online Asynchronous Flow Scheduling Mechanism for 5G-TSN Networks**. <u>IEEE ICC 2025</u>, Montreal, Canada. (**Best Paper Award**)
 
-- Hongwei Zuo, **Fengxiao Tang**, Yangfan Li, Ming Zhao, Rui Wang, Jinke Liu. **HybridLog: LLM-Powered Log Anomaly Analysis with Heterogeneous Semantic Collaboration Training**. <u>IEEE UIC 2025</u>.
+- Hongwei Zuo, **Fengxiao Tang***, Yangfan Li, Ming Zhao, Rui Wang, Jinke Liu. **HybridLog: LLM-Powered Log Anomaly Analysis with Heterogeneous Semantic Collaboration Training**. <u>IEEE UIC 2025</u>.
 
-- Q Shang, Xuehan Chen, **Fengxiao Tang**, Xiaoru Cai, Ming Zhao. **Nash Equilibrium-Based Spectrum Pricing and Allocation in Satellite-Terrestrial Network**. <u>IEEE ICC Workshops 2024</u>, pp. 1901-1906.
+- Q Shang, Xuehan Chen, **Fengxiao Tang***, Xiaoru Cai, Ming Zhao. **Nash Equilibrium-Based Spectrum Pricing and Allocation in Satellite-Terrestrial Network**. <u>IEEE ICC Workshops 2024</u>, pp. 1901-1906.
 
 - Q Guo, **Fengxiao Tang**, Nei Kato. **Hybrid Routing in FSO/RF Space-Air-Ground Integrated Network**. <u>IEEE GLOBECOM 2023</u>, pp. 6585-6590.
 
@@ -168,7 +168,7 @@
 
 - Zaijing Li, **Fengxiao Tang***, Ming Zhao, Yusen Zhu. **EmoCaps: Emotion Capsule Based Model for Conversational Emotion Recognition**. <u>Findings of ACL 2022</u>, pp. 1-11.
 
-- Yeguang Qin, **Fengxiao Tang**, Ming Zhao, Yusen Zhu. **AFFSRN: Attention-Based Feature Fusion Super-Resolution Network**. <u>ICONIP 2022</u>. CCIS 1791, Springer.
+- Yeguang Qin, **Fengxiao Tang***, Ming Zhao, Yusen Zhu. **AFFSRN: Attention-Based Feature Fusion Super-Resolution Network**. <u>ICONIP 2022</u>. CCIS 1791, Springer.
 
 - Bomin Mao, **Fengxiao Tang**, Zubair Md. Fadlullah, Nei Kato. **An Intelligent Packet Forwarding Approach for Disaster Recovery Networks**. <u>IEEE ICC 2019</u>, Shanghai, China.
 
