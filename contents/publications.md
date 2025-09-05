@@ -146,7 +146,7 @@
 
 ## INTERNATIONAL CONFERENCES
 
-- Xinhong Liu, Xiaoliang Li, Yangfan Li*, **Fengxiao Tang***. **RTdetector: Deep Transformer Networks for Time Series Anomaly Detection Based on Reconstruction Trend**. <u>IJCAI 2025</u>.
+- Xinhong Liu, Xiaoliang Li, Yangfan Li*, **Fengxiao Tang***. **RTdetector: Deep Transformer Networks for Time Series Anomaly Detection Based on Reconstruction Trend**. <u> IJCAI 2025</u>.
 
 - S Long, W Wu, X Yuan, Ming Zhao, **Fengxiao Tang***, Nei Kato. **Performance Analysis of Space-Air-Ground Integrated Networks of FSO/THz/RF Multi-Band Communication**. <u>IEEE ICC 2025</u>, Montreal, Canada.
 
