@@ -23,7 +23,7 @@ Bachelor degree, Wuhan University of Technology, China, 2012.\
 Master degree, Central South University, China, 2015.\
 Doctor degree, Tohoku University, Japan, 2019.
 
-### Working Experience
+#### Working Experience
 Assistant Professor, Graduate School of Information Sciences, Tohoku University, 2019.\
 Associate Professor, Graduate School of Information Sciences, Tohoku University, 2020.\
 Full Professor, School of Computer Science, Central South University, 2021.

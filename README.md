@@ -38,11 +38,24 @@ The directory structure is as follows:
 ```.
 .
 ├── contents
+    ├── awards
+    ├── config 
+    ├── home
+    ├── news
+    ├── publications
 └── static
     ├── assets
-    │   └── img
+        ├── img
     ├── css
-    └── js
+        ├── main
+        ├── style
+    ├── js
+        ├── bootstrap.bundle.min
+        ├── bootstrap.bundle.min.js.map
+        ├── js.yaml.min
+        ├── marked.min
+        ├── scripts
+        ├── tex-sc
 ```
 
 (2) Modify the content of each section, which corresponds to `contents/*.md`.
