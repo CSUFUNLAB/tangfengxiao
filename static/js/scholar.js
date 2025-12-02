@@ -1,5 +1,6 @@
 // 使用绝对路径
-const jsonPath = 'https://tangfengxiao/static/scholar.json';
+// 换成新仓库的地址，否则它还是会去读旧仓库(cc-cmyk)的数据！
+const jsonPath = 'https://cdn.jsdelivr.net/gh/CSUFUNLAB/tangfengxiao@main/static/scholar.json';
 
 document.addEventListener("DOMContentLoaded", function() {
     console.log("Scholar script loaded...");
