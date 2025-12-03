@@ -192,28 +192,31 @@ header h2::after {
     line-height: 1.8; 
 }
 .scholar-item:hover { transform: translateX(8px); background-color: #fcfdff; box-shadow: 0 5px 15px rgba(0,0,0,0.08); }
-/* --- 论文标题 (改为行内显示) --- */
+/* --- 论文标题 (加大字号) --- */
 .scholar-title {
-    display: inline; /* 关键：不独占一行 */
-    font-size: 1.05rem;
-    font-weight: 600;
-    color: #2c3e50;
+    display: inline;
+    font-size: 1.3rem; /* 增大到 1.3rem，与下方列表保持一致 */
+    font-weight: 200;  /* 降低字重，不仅是大，而且要细一点，匹配下方风格 */
+    color: #212529;    /* 使用深黑色 */
     text-decoration: none;
-    margin-right: 10px; /* 标题和后面标签的间距 */
+    margin-right: 10px;
+    line-height: 1.6;
+    font-family: "Mulish", sans-serif; /* 确保字体家族一致 */
     transition: color 0.2s;
 }
 
 .scholar-title:hover {
     color: #0056b3; 
-    text-decoration: none;
+    text-decoration: underline; /* 悬停加下划线，保持风格一致 */
 }
 
 /* --- 底部信息栏 (年份+引用) --- */
 .scholar-meta {
-    display: inline-flex; /* 让标签跟在标题后面 */
+    display: inline-flex;
     gap: 8px;
     align-items: center;
-    vertical-align: middle; /* 垂直居中对齐 */
+    vertical-align: middle;
+    font-size: 1.1rem; /* 这里的字号也稍微加大一点 */
 }
 .scholar-badge { display: inline-flex; align-items: center; gap: 6px; padding: 4px 10px; border-radius: 20px; font-size: 0.85rem; font-weight: 500; }
 .scholar-badge.year { background-color: #f8f9fa; color: #636c72; border: 1px solid #e9ecef; }
