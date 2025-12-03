@@ -172,10 +172,24 @@ header h2::after {
 .stat-label { font-size: 0.85rem; color: #8898aa; text-transform: uppercase; letter-spacing: 1px; font-weight: 600; margin-top: 5px; }
 
 .scholar-list { list-style: none !important; padding: 0; margin: 0; }
+/* --- 单行论文卡片 (加大间距版) --- */
 .scholar-item {
-    background-color: #fff; border-radius: 10px; padding: 18px 24px; margin-bottom: 16px;
-    border: 1px solid #f1f3f5; border-left: 5px solid #0056b3;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.02); transition: all 0.25s ease;
+    background-color: #ffffff;
+    
+    /* 核心修改 1: 加大内边距，让文字离边框远一点 */
+    padding: 25px 30px; 
+    
+    /* 核心修改 2: 加大卡片之间的距离 */
+    margin-bottom: 20px; 
+    
+    border-radius: 8px;
+    border: 1px solid #f0f2f5;
+    border-left: 5px solid #0056b3; /* 左侧蓝线加粗一点 */
+    box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+    transition: all 0.25s ease;
+    
+    /* 核心修改 3: 增加行高，让文字不那么密 */
+    line-height: 1.8; 
 }
 .scholar-item:hover { transform: translateX(8px); background-color: #fcfdff; box-shadow: 0 5px 15px rgba(0,0,0,0.08); }
 /* --- 论文标题 (改为行内显示) --- */
