@@ -50,16 +50,19 @@ a:hover {
 }
 
 /* --- 3. 顶部背景与头像 (Header & Avatar) --- */
+/* --- 顶部背景图调整 (显示中间部分) --- */
 .top-section {
     position: relative;
-    height: 400px !important; /* 稍微增高一点 */
+    height: 350px !important; /* 保持横幅高度 */
     
-    background-attachment: scroll !important;
+    /* 核心修改 1: 禁止视差滚动，防止图片被过度放大 */
+    background-attachment: scroll !important; 
     
-    /* 关键：水平居中，垂直靠下 */
-    /* 这样能保证水面和楼一定会被显示出来 */
-    background-position: center bottom !important; 
+    /* 核心修改 2: 强制图片显示正中间 */
+    /* 第一个 center 是水平居中，第二个 center 是垂直居中 */
+    background-position: center center !important; 
     
+    /* 核心修改 3: 铺满容器 (会自动裁剪多余边缘) */
     background-size: cover !important;
 }
 
