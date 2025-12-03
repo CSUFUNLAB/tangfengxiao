@@ -60,7 +60,7 @@ a:hover {
     
     /* 核心修改 2: 强制图片显示正中间 */
     /* 第一个 center 是水平居中，第二个 center 是垂直居中 */
-    background-position: center center !important; 
+    background-position: center 30% !important; 
     
     /* 核心修改 3: 铺满容器 (会自动裁剪多余边缘) */
     background-size: cover !important;
