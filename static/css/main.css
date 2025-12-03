@@ -109,4 +109,87 @@ section .main-body{
     }
 }
 
+/* =========================================
+   全站美化补丁 (Added for Beautification)
+   ========================================= */
+
+/* 1. 导航栏升级：磨砂玻璃效果 */
+#mainNav {
+    background-color: rgba(255, 255, 255, 0.9) !important; /* 半透明 */
+    backdrop-filter: blur(10px); /* 模糊背景 */
+    box-shadow: 0 4px 20px rgba(0,0,0,0.05); /* 柔和阴影 */
+    transition: all 0.3s ease;
+}
+
+/* 2. 头像美化：圆形 + 悬浮阴影 */
+#avatar img {
+    border-radius: 50%; /* 变圆 */
+    border: 5px solid #fff; /* 白边 */
+    box-shadow: 0 10px 25px rgba(0, 86, 179, 0.2); /* 蓝色光晕投影 */
+    transition: transform 0.3s ease;
+}
+#avatar img:hover {
+    transform: scale(1.05) rotate(2deg); /* 鼠标放上去微动 */
+}
+
+/* 3. 标题美化：加下划线 */
+section header h2 {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 40px;
+    font-weight: 700;
+}
+section header h2::after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 4px;
+    background: var(--bs-blue); /* 使用 Bootstrap 蓝色 */
+    margin-top: 10px;
+    border-radius: 2px;
+}
+
+/* 4. 正文内容区域 (NEWS, AWARDS, PUBLICATIONS) 优化 */
+.main-body {
+    font-family: 'Mulish', sans-serif; /* 优化字体 */
+    color: #4a4a4a;
+    line-height: 1.8; /* 增加行高，阅读更舒服 */
+}
+
+/* 5. 针对 NEWS 和 AWARDS 的列表美化 */
+/* 这里的 ul 和 li 是针对 Markdown 生成的内容 */
+.main-body ul {
+    padding-left: 1.2rem;
+    list-style: none; /* 去掉默认黑点 */
+}
+
+.main-body li {
+    position: relative;
+    margin-bottom: 12px; /* 列表项间距 */
+    padding-left: 25px;
+}
+
+/* 自定义漂亮的列表图标 (蓝色箭头) */
+.main-body li::before {
+    content: "➤"; 
+    color: var(--bs-blue);
+    position: absolute;
+    left: 0;
+    top: 2px;
+    font-size: 0.8rem;
+    opacity: 0.8;
+}
+
+/* 6. 链接美化 */
+.main-body a {
+    color: var(--bs-blue);
+    text-decoration: none;
+    font-weight: 500;
+    border-bottom: 1px dotted var(--bs-blue);
+    transition: all 0.2s;
+}
+.main-body a:hover {
+    background-color: rgba(41, 55, 240, 0.1); /* 悬停高亮背景 */
+    border-bottom: 1px solid var(--bs-blue);
+}
 
