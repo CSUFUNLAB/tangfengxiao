@@ -1,112 +1,95 @@
-// 使用绝对路径
-// 换成新仓库的地址，否则它还是会去读旧仓库(cc-cmyk)的数据！
-const jsonPath = 'https://cdn.jsdelivr.net/gh/CSUFUNLAB/tangfengxiao@main/static/scholar.json';
+// 1. 修正地址：使用 CSUFUNLAB 用户名 + master 分支
+const jsonPath = 'https://cdn.jsdelivr.net/gh/CSUFUNLAB/tangfengxiao@master/static/scholar.json';
 
 document.addEventListener("DOMContentLoaded", function() {
-    console.log("Scholar script loaded...");
+    console.log("🚀 Script starting... Target:", jsonPath);
     
-    // 1. 先去抓取数据
     fetch(jsonPath)
         .then(response => {
-            if (!response.ok) throw new Error("Status: " + response.status);
+            if (!response.ok) throw new Error("CDN Error: " + response.status);
             return response.json();
         })
         .then(data => {
-            console.log("Data received:", data);
+            console.log("✅ Data loaded:", data);
             
-            // 2. 数据拿到后，开始“蹲守”网页元素出现
-            // 因为您的网页是动态加载 Markdown 的，元素不会立刻出现
-            
-            // 等待论文列表容器出现
+            // 开始轮询，直到找到页面元素
             waitForElement('papers-list', function(container) {
                 renderPapers(data.papers, container);
             });
             
-            // 等待统计数据容器出现
             waitForElement('stats-grid', function(container) {
                 renderStats(data);
             });
         })
         .catch(error => {
-            console.error('Fetch error:', error);
+            console.error('❌ Error:', error);
         });
 });
 
-/**
- * 核心辅助函数：轮询等待元素出现
- * @param {string} id - 元素的 ID
- * @param {function} callback - 找到元素后的回调函数
- */
+// 轮询函数：每500ms找一次，直到找到
 function waitForElement(id, callback) {
-    // 如果元素已经存在，直接执行
-    const el = document.getElementById(id);
-    if (el) {
-        callback(el);
-        return;
-    }
-
-    // 否则，每 500 毫秒检查一次，直到找到为止
-    // 设置一个超时（比如 10 秒），防止无限死循环
-    let checks = 0;
     const interval = setInterval(() => {
         const el = document.getElementById(id);
         if (el) {
             console.log(`Element ${id} found! Rendering...`);
-            clearInterval(interval); // 找到了，停止轮询
+            clearInterval(interval);
             callback(el);
-        }
-        
-        checks++;
-        if (checks > 20) { // 10秒后还没找到就放弃
-             clearInterval(interval);
-             console.warn(`Element ${id} not found after 10s.`);
         }
     }, 500);
 }
 
-// 渲染统计卡片
+// 渲染统计
 function renderStats(data) {
-    const statsContainer = document.getElementById('stats-grid');
-    if (!statsContainer) return;
-    statsContainer.innerHTML = ''; 
-
+    const container = document.getElementById('stats-grid');
+    if(!container) return;
+    container.innerHTML = ''; 
     const items = [
         { label: 'Citations', value: data.citations },
         { label: 'h-index', value: data.h_index },
         { label: 'i10-index', value: data.i10_index }
     ];
-
     items.forEach(item => {
         if (item.value !== undefined) {
-            const card = document.createElement('div');
-            card.className = 'stat-card';
-            card.innerHTML = `<span class="stat-number">${item.value}</span><span class="stat-label">${item.label}</span>`;
-            statsContainer.appendChild(card);
+            container.innerHTML += `
+                <div class="stat-card">
+                    <span class="stat-number">${item.value}</span>
+                    <span class="stat-label">${item.label}</span>
+                </div>`;
         }
     });
 }
 
-// 渲染论文列表
+// 渲染论文
 function renderPapers(papers, container) {
-    container.innerHTML = ''; // 清空 Loading
+    container.innerHTML = ''; 
 
-    // 创建无序列表
+    // 创建列表容器
     const ul = document.createElement('ul');
-    ul.style.listStyleType = 'disc';
-    ul.style.paddingLeft = '20px';
-    ul.style.marginTop = '10px';
+    ul.className = 'scholar-list'; // 添加类名
 
-    papers.forEach(paper => {
+    papers.forEach(p => {
         const li = document.createElement('li');
-        li.style.marginBottom = '12px';
-        li.style.lineHeight = '1.6';
-        li.style.color = '#333';
+        li.className = 'scholar-item'; // 添加类名
+        
+        // 1. 标题区域
+        const titleHtml = `<a href="${p.link}" target="_blank" class="scholar-title">${p.title}</a>`;
+        
+        // 2. 信息区域 (年份 + 引用)
+        let metaHtml = `<div class="scholar-meta">`;
+        
+        // 年份标签
+        if (p.year) {
+            metaHtml += `<span class="scholar-tag year"><i class="bi bi-calendar3"></i> ${p.year}</span>`;
+        }
+        
+        // 引用标签 (只有大于0才显示)
+        if (p.citation > 0) {
+            // 使用星星图标，显得更高级
+            metaHtml += `<span class="scholar-tag citation"><i class="bi bi-star-fill"></i> Cited by ${p.citation}</span>`;
+        }
+        metaHtml += `</div>`;
 
-        const titleHtml = `<a href="${paper.link}" target="_blank" style="font-weight:600; text-decoration:none; color:#2c3e50;">${paper.title}</a>`;
-        const yearHtml = `<span style="color:#666; margin-left:5px;">(${paper.year})</span>`;
-        const citeHtml = paper.citation > 0 ? `<span style="font-size:0.85em; color:#0056b3; margin-left:8px; background:#f0f7ff; padding:2px 6px; border-radius:4px;">Cited by ${paper.citation}</span>` : '';
-
-        li.innerHTML = `${titleHtml}.${yearHtml}.${citeHtml}`;
+        li.innerHTML = titleHtml + metaHtml;
         ul.appendChild(li);
     });
 
