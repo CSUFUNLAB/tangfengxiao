@@ -60,33 +60,38 @@ function renderStats(data) {
 }
 
 // 渲染论文
+// [美化版] 渲染论文列表 (生成卡片结构)
 function renderPapers(papers, container) {
     container.innerHTML = ''; 
 
-    // 创建列表容器
+    // 创建容器
     const ul = document.createElement('ul');
-    ul.className = 'scholar-list'; // 添加类名
+    ul.className = 'scholar-list'; 
 
     papers.forEach(p => {
         const li = document.createElement('li');
-        li.className = 'scholar-item'; // 添加类名
+        li.className = 'scholar-item'; 
         
-        // 1. 标题区域
-        const titleHtml = `<a href="${p.link}" target="_blank" class="scholar-title">${p.title}</a>`;
+        // 1. 论文标题 (链接)
+        const titleHtml = `
+            <a href="${p.link}" target="_blank" class="scholar-title">
+                ${p.title}
+                <i class="bi bi-box-arrow-up-right external-icon"></i>
+            </a>`;
         
-        // 2. 信息区域 (年份 + 引用)
+        // 2. 元数据区域 (年份 + 引用)
         let metaHtml = `<div class="scholar-meta">`;
         
         // 年份标签
-        if (p.year) {
-            metaHtml += `<span class="scholar-tag year"><i class="bi bi-calendar3"></i> ${p.year}</span>`;
+        if (p.year && p.year !== "0") {
+            metaHtml += `<span class="scholar-badge year"><i class="bi bi-calendar-event"></i> ${p.year}</span>`;
         }
         
-        // 引用标签 (只有大于0才显示)
+        // 引用标签 (高亮显示)
         if (p.citation > 0) {
-            // 使用星星图标，显得更高级
-            metaHtml += `<span class="scholar-tag citation"><i class="bi bi-star-fill"></i> Cited by ${p.citation}</span>`;
+            metaHtml += `<span class="scholar-badge citation"><i class="bi bi-star-fill"></i> Cited by <strong>${p.citation}</strong></span>`;
         }
+        
         metaHtml += `</div>`;
 
         li.innerHTML = titleHtml + metaHtml;
