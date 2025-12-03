@@ -121,31 +121,29 @@ section .main-body{
     transition: all 0.3s ease;
 }
 
-/* 2. 头像美化：圆形 + 悬浮阴影 */
 #avatar img {
-    border-radius: 50%; /* 变圆 */
-    border: 5px solid #fff; /* 白边 */
-    box-shadow: 0 10px 25px rgba(0, 86, 179, 0.2); /* 蓝色光晕投影 */
+    /* 1. 设置合适的大小 (根据您照片的比例，通常学术照是长方形) */
+    /* 宽度保持不变，或者您可以根据需要微调，比如 160px */
+    width: 160px; 
+    height: auto; /* 高度自动，保持照片原始比例，避免变形 */
+    
+    /* 2. 矩形设定 */
+    /* 设为 0 就是完全直角；设为 4px 稍微圆润一点点，看起来不那么尖锐 */
+    border-radius: 4px; 
+    
+    /* 3. 核心：加上白色粗边框，把照片从背景里“抠”出来 */
+    border: 6px solid #ffffff; 
+    
+    /* 4. 加上阴影，增加立体悬浮感 */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); 
+    
+    /* 5. 确保背景不透 */
+    background-color: #fff;
+    
     transition: transform 0.3s ease;
 }
+
+/* 鼠标悬停微动效果 */
 #avatar img:hover {
-    transform: scale(1.05) rotate(2deg); /* 鼠标放上去微动 */
+    transform: translateY(-5px); /* 鼠标放上去会上浮一点点 */
 }
-
-/* 3. 标题美化：加下划线 */
-section header h2 {
-    position: relative;
-    display: inline-block;
-    margin-bottom: 40px;
-    font-weight: 700;
-}
-section header h2::after {
-    content: '';
-    display: block;
-    width: 60px;
-    height: 4px;
-    background: var(--bs-blue); /* 使用 Bootstrap 蓝色 */
-    margin-top: 10px;
-    border-radius: 2px;
-}
-
