@@ -38,7 +38,8 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.5);
+    background: none !important; /* 核心修改：去掉遮罩，还原图片本色 */
+    /* 或者直接把整个 .top-section:before 代码块删掉 */
 }
 
 section header h2{
