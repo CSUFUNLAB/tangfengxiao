@@ -121,29 +121,30 @@ section .main-body{
     transition: all 0.3s ease;
 }
 
+/* =========================================
+   强制头像样式修复 (Rectangular Frame)
+   ========================================= */
 #avatar img {
-    /* 1. 设置合适的大小 (根据您照片的比例，通常学术照是长方形) */
-    /* 宽度保持不变，或者您可以根据需要微调，比如 160px */
-    width: 160px; 
-    height: auto; /* 高度自动，保持照片原始比例，避免变形 */
+    /* 1. 尺寸设定 */
+    width: 160px !important; 
+    height: auto !important; /* 保持原始比例，不拉伸 */
     
-    /* 2. 矩形设定 */
-    /* 设为 0 就是完全直角；设为 4px 稍微圆润一点点，看起来不那么尖锐 */
-    border-radius: 4px; 
+    /* 2. 形状设定：4px 是微圆角，0px 是直角 */
+    border-radius: 4px !important; 
     
-    /* 3. 核心：加上白色粗边框，把照片从背景里“抠”出来 */
-    border: 6px solid #ffffff; 
+    /* 3. 相框效果：白色粗边框 */
+    border: 6px solid #ffffff !important; 
     
-    /* 4. 加上阴影，增加立体悬浮感 */
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); 
+    /* 4. 立体阴影 */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3) !important; 
     
-    /* 5. 确保背景不透 */
-    background-color: #fff;
-    
+    /* 5. 其他重置 */
+    background-color: #fff !important;
+    object-fit: cover !important;
     transition: transform 0.3s ease;
 }
 
-/* 鼠标悬停微动效果 */
+/* 鼠标悬停微动 */
 #avatar img:hover {
-    transform: translateY(-5px); /* 鼠标放上去会上浮一点点 */
+    transform: translateY(-5px) !important;
 }
