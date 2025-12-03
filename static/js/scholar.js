@@ -61,19 +61,37 @@ function renderStats(data) {
 
 // 渲染论文
 function renderPapers(papers, container) {
-    container.innerHTML = '';
+    container.innerHTML = ''; 
+
+    // 创建列表容器
     const ul = document.createElement('ul');
-    ul.style.paddingLeft = '20px';
-    
+    ul.className = 'scholar-list'; // 添加类名
+
     papers.forEach(p => {
         const li = document.createElement('li');
-        li.style.marginBottom = '10px';
-        li.innerHTML = `
-            <a href="${p.link}" target="_blank" style="font-weight:600;color:#000;text-decoration:none">${p.title}</a>. 
-            <span style="color:#666">(${p.year})</span>.
-            ${p.citation > 0 ? `<span style="color:#0056b3;font-size:0.9em">[Cited by ${p.citation}]</span>` : ''}
-        `;
+        li.className = 'scholar-item'; // 添加类名
+        
+        // 1. 标题区域
+        const titleHtml = `<a href="${p.link}" target="_blank" class="scholar-title">${p.title}</a>`;
+        
+        // 2. 信息区域 (年份 + 引用)
+        let metaHtml = `<div class="scholar-meta">`;
+        
+        // 年份标签
+        if (p.year) {
+            metaHtml += `<span class="scholar-tag year"><i class="bi bi-calendar3"></i> ${p.year}</span>`;
+        }
+        
+        // 引用标签 (只有大于0才显示)
+        if (p.citation > 0) {
+            // 使用星星图标，显得更高级
+            metaHtml += `<span class="scholar-tag citation"><i class="bi bi-star-fill"></i> Cited by ${p.citation}</span>`;
+        }
+        metaHtml += `</div>`;
+
+        li.innerHTML = titleHtml + metaHtml;
         ul.appendChild(li);
     });
+
     container.appendChild(ul);
 }
