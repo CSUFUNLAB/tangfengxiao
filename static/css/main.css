@@ -1,113 +1,140 @@
-/* --- 列表容器 --- */
-.scholar-list {
-  list-style: none !important; /* 去掉默认圆点 */
-  padding: 0;
-  margin: 0;
+@import "./styles.css";
+
+
+:root{
+    --h-title-color:#3948d2;
 }
 
-/* --- 单行论文卡片 --- */
-.scholar-item {
-  background-color: #ffffff;
-  padding: 12px 18px;
-  margin-bottom: 12px;
-  border-radius: 6px;           /* 轻微圆角 */
-  border: 1px solid #f0f2f5;    /* 极淡的边框 */
-  border-left: 4px solid #0056b3; /* 左侧蓝色强调线 (CSU Blue) */
-  box-shadow: 0 2px 4px rgba(0,0,0,0.02); /* 静态时几乎看不见的阴影 */
-  transition: all 0.25s ease;   /* 动画过渡 */
+.header {
+    border-bottom: solid 2px var(--bs-blue);
+    z-index: 10000;
 }
 
-/* 鼠标悬停效果 */
-.scholar-item:hover {
-  transform: translateX(5px);   /* 微微向右移动 */
-  box-shadow: 0 4px 12px rgba(0,86,179,0.08); /* 蓝色光晕投影 */
-  border-left-width: 6px;       /* 左侧线条变粗 */
-  background-color: #f8fbff;    /* 背景变极淡蓝 */
+.bg-bottom {
+    background-color: var(--h-title-color);
 }
 
-/* --- 论文标题 --- */
-.scholar-title {
-  display: block;
-  font-size: 1.05rem;
-  font-weight: 600;
-  color: #2c3e50;
-  text-decoration: none;
-  line-height: 1.4;
-  margin-bottom: 6px;
-  transition: color 0.2s;
+.top-section {
+    position: relative;
+    padding: 10rem 0;
+    background-position: center;
+    background-size: cover;
+    height: 25rem;
 }
 
-.scholar-title:hover {
-  color: #0056b3; /* 悬停变蓝 */
-  text-decoration: none;
+.top-section h2 {
+    font-weight: 400;
 }
 
-/* --- 底部信息栏 --- */
-.scholar-meta {
-  display: flex;
-  gap: 15px;
-  align-items: center;
-  font-size: 0.9rem;
+.top-section .top-section-content {
+    position: relative;
+    z-index: 1;
 }
 
-/* 信息标签通用样式 */
-.scholar-info {
-  color: #6c757d;
+.top-section:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
 }
 
-/* 年份特定样式 */
-.scholar-info.year {
-  font-weight: 500;
+section header h2{
+    font-family: "Kanit", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
+    color: var(--h-title-color);
+    font-size: 2.3rem;
+    line-height: 4rem;
 }
 
-/* 引用特定样式 */
-.scholar-info.citation {
-  color: #0056b3;            /* 深蓝色文字 */
-  background-color: #e7f1ff; /* 淡蓝色背景 */
-  padding: 2px 8px;
-  border-radius: 12px;       /* 胶囊形状 */
-  font-size: 0.8rem;
-  font-weight: 600;
+section .main-body{
+    font-size: 1.3rem;
+    font-weight: 200;
+    line-height: 2.4rem;
 }
 
-.scholar-info.citation i {
-  color: #ffc107; /* 金色星星图标 */
-  margin-right: 3px;
-  font-size: 0.75rem;
+
+.bg-gradient-primary-to-secondary-light {
+    background: linear-gradient(45deg, #fcfcfc, #ffffff) !important;
 }
 
-/* 之前统计卡片的样式保持不变 (放在后面即可) */
-.stats-grid {
-display: flex;
-gap: 15px;
-flex-wrap: wrap;
-margin-top: 15px;
-margin-bottom: 30px;
+.bg-gradient-primary-to-secondary-gray {
+    background: linear-gradient(45deg, #f0f0f0, #f1f1f1) !important;
 }
 
-.stat-card {
-flex: 1;
-min-width: 100px;
-background: #fff;
-border: 1px solid #e1e4e8;
-border-top: 3px solid #0056b3; /* 顶部蓝线 */
-border-radius: 4px;
-padding: 15px;
-text-align: center;
-box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+
+
+.on-top {
+    position: relative;
+    z-index: 10000;
 }
 
-.stat-number {
-display: block;
-font-size: 28px;
-font-weight: 700;
-color: #0056b3;
+.top-bg {
+    background-position: center;
+    background-size: fill;
+    width: 100%;
+    height: 100%;
 }
 
-.stat-label {
-font-size: 11px;
-color: #888;
-text-transform: uppercase;
-letter-spacing: 1px;
-margin-top: 5px;
+.top-bg::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+
+/* --- 头像容器 (居中跨坐版) --- */
+#avatar {
+    /* 1. 清除旧的浮动和定位干扰 */
+    float: none !important;
+    position: relative !important;
+    top: auto !important;
+    right: auto !important;
+    height: auto !important;
+    
+    /* 2. 核心：Flex布局实现绝对居中 */
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 100% !important;
+    
+    /* 3. 垂直位置调整：负边距向上拉 */
+    /* 您的头像高度约160px，上拉90px正好跨坐一半 */
+    margin-top: -90px !important; 
+    margin-bottom: 20px !important; /* 底部留点空隙给名字 */
+    
+    /* 4. 层级确保在横幅之上 */
+    z-index: 100 !important;
+}
+
+#avatar img {
+    /* 1. 设置合适的大小 (根据您照片的比例，通常学术照是长方形) */
+    /* 宽度保持不变，或者您可以根据需要微调，比如 160px */
+    width: 160px; 
+    height: auto; /* 高度自动，保持照片原始比例，避免变形 */
+    
+    /* 2. 矩形设定 */
+    /* 设为 0 就是完全直角；设为 4px 稍微圆润一点点，看起来不那么尖锐 */
+    border-radius: 4px; 
+    
+    /* 3. 核心：加上白色粗边框，把照片从背景里“抠”出来 */
+    border: 6px solid #ffffff; 
+    
+    /* 4. 加上阴影，增加立体悬浮感 */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); 
+    
+    /* 5. 确保背景不透 */
+    background-color: #fff;
+    
+    transition: transform 0.3s ease;
+}
+
+/* 鼠标悬停微动效果 */
+#avatar img:hover {
+    transform: translateY(-5px); /* 鼠标放上去会上浮一点点 */
 }
