@@ -52,9 +52,15 @@ a:hover {
 /* --- 3. 顶部背景与头像 (Header & Avatar) --- */
 .top-section {
     position: relative;
-    height: 350px !important; 
-    background-position: center top !important; /* 从顶部开始显示（确保校徽不被切掉） */
-    background-size: cover !important; 
+    height: 400px !important; /* 稍微增高一点 */
+    
+    background-attachment: scroll !important;
+    
+    /* 关键：水平居中，垂直靠下 */
+    /* 这样能保证水面和楼一定会被显示出来 */
+    background-position: center bottom !important; 
+    
+    background-size: cover !important;
 }
 
 /* 给背景图加一层蓝色遮罩，让文字更清晰 */
