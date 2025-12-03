@@ -1,170 +1,187 @@
 /* =========================================
-   学术主页美化样式 (Modern Academic Style)
+   全站美化样式 (Modern Academic Theme)
    ========================================= */
 
-/* --- 1. 统计卡片区域 (Stats Grid) --- */
-.stats-grid {
-    display: flex;
-    gap: 20px;
-    flex-wrap: wrap;
-    margin: 25px 0 40px 0;
+/* --- 1. 全局基础 (Global) --- */
+body {
+    font-family: 'Mulish', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: #333;
+    background-color: #f8f9fa;
+    line-height: 1.6;
 }
 
-.stat-card {
-    flex: 1;
-    min-width: 140px;
-    background: #ffffff;
-    border: 1px solid #eef2f6;
-    border-radius: 12px;
-    padding: 20px;
-    text-align: center;
-    position: relative;
-    overflow: hidden;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);
+a {
+    color: #0056b3;
     transition: all 0.3s ease;
+    text-decoration: none;
 }
 
-/* 卡片悬停特效 */
-.stat-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 10px 20px rgba(0, 86, 179, 0.1);
-    border-color: #b3d7ff;
+a:hover {
+    color: #003d82;
+    text-decoration: underline;
 }
 
-/* 顶部蓝色装饰条 */
-.stat-card::after {
+/* --- 2. 导航栏 (Navigation) --- */
+#mainNav {
+    background-color: rgba(255, 255, 255, 0.95) !important; /* 半透明背景 */
+    backdrop-filter: blur(10px); /* 磨砂玻璃效果 */
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.05); /* 柔和阴影 */
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#mainNav .navbar-brand {
+    color: #0056b3 !important;
+    font-weight: 700;
+    font-family: 'Kanit', sans-serif;
+}
+
+#mainNav .nav-link {
+    color: #555 !important;
+    font-weight: 600;
+    font-size: 0.95rem;
+    padding: 0.5rem 1rem !important;
+}
+
+#mainNav .nav-link:hover {
+    color: #0056b3 !important;
+    background-color: #f0f7ff;
+    border-radius: 5px;
+}
+
+/* --- 3. 顶部背景与头像 (Header & Avatar) --- */
+.top-section {
+    position: relative;
+    height: 350px !important; /* 调整高度 */
+    background-attachment: fixed; /* 视差滚动效果 */
+    background-position: center;
+    background-size: cover;
+}
+
+/* 给背景图加一层蓝色遮罩，让文字更清晰 */
+.top-section::before {
     content: "";
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 4px;
-    background: linear-gradient(90deg, #0056b3, #00a0e9);
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(0, 86, 179, 0.3); 
 }
 
-.stat-number {
-    display: block;
-    font-size: 2.5rem;
-    font-weight: 800;
-    color: #2c3e50;
-    margin-bottom: 5px;
-    font-family: 'Kanit', sans-serif; /* 配合你网页的字体 */
-}
-
-.stat-label {
-    font-size: 0.85rem;
-    color: #8898aa;
-    text-transform: uppercase;
-    letter-spacing: 1.2px;
-    font-weight: 600;
-}
-
-/* --- 2. 论文列表区域 (Paper List) --- */
-.scholar-list {
-    list-style: none !important;
-    padding: 0;
-    margin: 0;
-}
-
-.scholar-item {
-    background-color: #fff;
-    border-radius: 10px;
-    padding: 18px 24px;
-    margin-bottom: 16px;
-    border: 1px solid #f1f3f5;
-    border-left: 5px solid #0056b3; /* 左侧蓝色强调线 */
-    box-shadow: 0 2px 5px rgba(0,0,0,0.02);
-    transition: all 0.25s ease-in-out;
+#avatar {
+    margin-top: -100px; /* 让头像上浮，跨越背景 */
     position: relative;
+    z-index: 10;
+    text-align: center; /* 头像居中 */
 }
 
-/* 论文卡片悬停 */
-.scholar-item:hover {
-    transform: translateX(8px); /* 向右轻微滑动 */
-    background-color: #fcfdff;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+#avatar img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%; /* 圆形头像 */
+    border: 6px solid #ffffff; /* 白色粗边框 */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15); /* 立体投影 */
+    transition: transform 0.3s ease;
 }
 
-/* 论文标题 */
-.scholar-title {
-    display: block;
-    font-size: 1.1rem;
+#avatar img:hover {
+    transform: scale(1.05); /* 鼠标放上去微微放大 */
+}
+
+/* --- 4. 版块通用样式 (Sections) --- */
+section {
+    padding: 80px 0;
+    background-color: #ffffff;
+}
+
+/* 让版块背景黑白交替，更有层次感 */
+section:nth-of-type(even) {
+    background-color: #f9fbfd; /* 极淡的蓝色背景 */
+}
+
+/* 统一的标题样式 */
+header h2 {
+    font-family: 'Kanit', sans-serif;
     font-weight: 700;
-    color: #343a40;
-    text-decoration: none;
+    color: #2c3e50;
+    font-size: 2.2rem;
+    margin-bottom: 40px;
+    position: relative;
+    display: inline-block;
+}
+
+/* 标题底部的蓝色装饰线 */
+header h2::after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 5px;
+    background: #0056b3;
+    margin-top: 10px;
+    border-radius: 3px;
+}
+
+/* --- 5. 正文内容美化 (Markdown Content) --- */
+.main-body {
+    font-size: 1.1rem;
+    color: #4a4a4a;
+    line-height: 1.8;
+}
+
+/* 针对 News 和 Awards 的列表美化 */
+.main-body ul {
+    padding-left: 20px;
+    list-style: none; /* 去掉默认圆点 */
+}
+
+.main-body li {
+    position: relative;
     margin-bottom: 12px;
-    line-height: 1.5;
-    transition: color 0.2s;
+    padding-left: 20px;
 }
 
-.scholar-title:hover {
-    color: #0056b3; /* 中南大学蓝 */
-    text-decoration: none;
+/* 自定义列表的小圆点 */
+.main-body li::before {
+    content: "•";
+    color: #0056b3; /* 蓝色点 */
+    font-weight: bold;
+    font-size: 1.5em;
+    position: absolute;
+    left: 0;
+    top: -5px;
 }
 
-/* 外链小图标 */
-.external-icon {
-    font-size: 0.8em;
-    color: #adb5bd;
-    margin-left: 5px;
-    vertical-align: middle;
-    opacity: 0;
-    transition: opacity 0.2s;
-}
+/* --- 6. 之前写好的学术卡片样式 (完美保留) --- */
+/* 这部分直接接在后面即可，不要删除 */
 
-.scholar-item:hover .external-icon {
-    opacity: 1; /* 悬停时才显示图标 */
+.stats-grid { display: flex; gap: 20px; flex-wrap: wrap; margin: 30px 0; }
+.stat-card {
+    flex: 1; min-width: 140px; background: #fff; border: 1px solid #eef2f6;
+    border-radius: 12px; padding: 20px; text-align: center;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.03); transition: all 0.3s ease; position: relative; overflow: hidden;
 }
+.stat-card::after { content: ""; position: absolute; top: 0; left: 0; width: 100%; height: 4px; background: linear-gradient(90deg, #0056b3, #00a0e9); }
+.stat-card:hover { transform: translateY(-5px); box-shadow: 0 10px 20px rgba(0,86,179,0.1); border-color: #b3d7ff; }
+.stat-number { display: block; font-size: 2.5rem; font-weight: 800; color: #2c3e50; font-family: 'Kanit', sans-serif; }
+.stat-label { font-size: 0.85rem; color: #8898aa; text-transform: uppercase; letter-spacing: 1px; font-weight: 600; margin-top: 5px; }
 
-/* --- 底部元数据栏 --- */
-.scholar-meta {
-    display: flex;
-    gap: 10px;
-    align-items: center;
-    flex-wrap: wrap;
+.scholar-list { list-style: none !important; padding: 0; margin: 0; }
+.scholar-item {
+    background-color: #fff; border-radius: 10px; padding: 18px 24px; margin-bottom: 16px;
+    border: 1px solid #f1f3f5; border-left: 5px solid #0056b3;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.02); transition: all 0.25s ease;
 }
-
-/* 胶囊标签通用样式 */
-.scholar-badge {
-    display: inline-flex;
-    align-items: center;
-    gap: 6px;
-    padding: 5px 12px;
-    border-radius: 20px;
-    font-size: 0.85rem;
-    font-weight: 500;
-}
-
-/* 年份标签 */
-.scholar-badge.year {
-    background-color: #f8f9fa;
-    color: #636c72;
-    border: 1px solid #e9ecef;
-}
-
-/* 引用标签 (金色星星) */
-.scholar-badge.citation {
-    background-color: #fff8e1; /* 淡金色背景 */
-    color: #b7860b;            /* 深金色文字 */
-    border: 1px solid #ffeeba;
-}
-
-.scholar-badge.citation i {
-    color: #ffc107; /* 亮金色星星 */
-}
+.scholar-item:hover { transform: translateX(8px); background-color: #fcfdff; box-shadow: 0 5px 15px rgba(0,0,0,0.08); }
+.scholar-title { display: block; font-size: 1.1rem; font-weight: 700; color: #343a40; text-decoration: none; margin-bottom: 8px; }
+.scholar-title:hover { color: #0056b3; }
+.scholar-meta { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
+.scholar-badge { display: inline-flex; align-items: center; gap: 6px; padding: 4px 10px; border-radius: 20px; font-size: 0.85rem; font-weight: 500; }
+.scholar-badge.year { background-color: #f8f9fa; color: #636c72; border: 1px solid #e9ecef; }
+.scholar-badge.citation { background-color: #fff8e1; color: #b7860b; border: 1px solid #ffeeba; }
+.scholar-badge.citation i { color: #ffc107; }
 
 /* 移动端适配 */
 @media (max-width: 768px) {
-    .stats-grid {
-        gap: 10px;
-    }
-    .stat-card {
-        padding: 15px;
-    }
-    .stat-number {
-        font-size: 2rem;
-    }
-    .scholar-item {
-        padding: 15px;
-    }
+    .top-section { height: 250px !important; }
+    #avatar img { width: 140px; height: 140px; }
+    header h2 { font-size: 1.8rem; }
 }
