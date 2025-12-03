@@ -1,113 +1,170 @@
-/* --- 列表容器 --- */
-.scholar-list {
-  list-style: none !important; /* 去掉默认圆点 */
-  padding: 0;
-  margin: 0;
-}
+/* =========================================
+   学术主页美化样式 (Modern Academic Style)
+   ========================================= */
 
-/* --- 单行论文卡片 --- */
-.scholar-item {
-  background-color: #ffffff;
-  padding: 12px 18px;
-  margin-bottom: 12px;
-  border-radius: 6px;           /* 轻微圆角 */
-  border: 1px solid #f0f2f5;    /* 极淡的边框 */
-  border-left: 4px solid #0056b3; /* 左侧蓝色强调线 (CSU Blue) */
-  box-shadow: 0 2px 4px rgba(0,0,0,0.02); /* 静态时几乎看不见的阴影 */
-  transition: all 0.25s ease;   /* 动画过渡 */
-}
-
-/* 鼠标悬停效果 */
-.scholar-item:hover {
-  transform: translateX(5px);   /* 微微向右移动 */
-  box-shadow: 0 4px 12px rgba(0,86,179,0.08); /* 蓝色光晕投影 */
-  border-left-width: 6px;       /* 左侧线条变粗 */
-  background-color: #f8fbff;    /* 背景变极淡蓝 */
-}
-
-/* --- 论文标题 --- */
-.scholar-title {
-  display: block;
-  font-size: 1.05rem;
-  font-weight: 600;
-  color: #2c3e50;
-  text-decoration: none;
-  line-height: 1.4;
-  margin-bottom: 6px;
-  transition: color 0.2s;
-}
-
-.scholar-title:hover {
-  color: #0056b3; /* 悬停变蓝 */
-  text-decoration: none;
-}
-
-/* --- 底部信息栏 --- */
-.scholar-meta {
-  display: flex;
-  gap: 15px;
-  align-items: center;
-  font-size: 0.9rem;
-}
-
-/* 信息标签通用样式 */
-.scholar-info {
-  color: #6c757d;
-}
-
-/* 年份特定样式 */
-.scholar-info.year {
-  font-weight: 500;
-}
-
-/* 引用特定样式 */
-.scholar-info.citation {
-  color: #0056b3;            /* 深蓝色文字 */
-  background-color: #e7f1ff; /* 淡蓝色背景 */
-  padding: 2px 8px;
-  border-radius: 12px;       /* 胶囊形状 */
-  font-size: 0.8rem;
-  font-weight: 600;
-}
-
-.scholar-info.citation i {
-  color: #ffc107; /* 金色星星图标 */
-  margin-right: 3px;
-  font-size: 0.75rem;
-}
-
-/* 之前统计卡片的样式保持不变 (放在后面即可) */
+/* --- 1. 统计卡片区域 (Stats Grid) --- */
 .stats-grid {
-display: flex;
-gap: 15px;
-flex-wrap: wrap;
-margin-top: 15px;
-margin-bottom: 30px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 25px 0 40px 0;
 }
 
 .stat-card {
-flex: 1;
-min-width: 100px;
-background: #fff;
-border: 1px solid #e1e4e8;
-border-top: 3px solid #0056b3; /* 顶部蓝线 */
-border-radius: 4px;
-padding: 15px;
-text-align: center;
-box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    flex: 1;
+    min-width: 140px;
+    background: #ffffff;
+    border: 1px solid #eef2f6;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);
+    transition: all 0.3s ease;
+}
+
+/* 卡片悬停特效 */
+.stat-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 86, 179, 0.1);
+    border-color: #b3d7ff;
+}
+
+/* 顶部蓝色装饰条 */
+.stat-card::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(90deg, #0056b3, #00a0e9);
 }
 
 .stat-number {
-display: block;
-font-size: 28px;
-font-weight: 700;
-color: #0056b3;
+    display: block;
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: #2c3e50;
+    margin-bottom: 5px;
+    font-family: 'Kanit', sans-serif; /* 配合你网页的字体 */
 }
 
 .stat-label {
-font-size: 11px;
-color: #888;
-text-transform: uppercase;
-letter-spacing: 1px;
-margin-top: 5px;
+    font-size: 0.85rem;
+    color: #8898aa;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    font-weight: 600;
+}
+
+/* --- 2. 论文列表区域 (Paper List) --- */
+.scholar-list {
+    list-style: none !important;
+    padding: 0;
+    margin: 0;
+}
+
+.scholar-item {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 18px 24px;
+    margin-bottom: 16px;
+    border: 1px solid #f1f3f5;
+    border-left: 5px solid #0056b3; /* 左侧蓝色强调线 */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.02);
+    transition: all 0.25s ease-in-out;
+    position: relative;
+}
+
+/* 论文卡片悬停 */
+.scholar-item:hover {
+    transform: translateX(8px); /* 向右轻微滑动 */
+    background-color: #fcfdff;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+}
+
+/* 论文标题 */
+.scholar-title {
+    display: block;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #343a40;
+    text-decoration: none;
+    margin-bottom: 12px;
+    line-height: 1.5;
+    transition: color 0.2s;
+}
+
+.scholar-title:hover {
+    color: #0056b3; /* 中南大学蓝 */
+    text-decoration: none;
+}
+
+/* 外链小图标 */
+.external-icon {
+    font-size: 0.8em;
+    color: #adb5bd;
+    margin-left: 5px;
+    vertical-align: middle;
+    opacity: 0;
+    transition: opacity 0.2s;
+}
+
+.scholar-item:hover .external-icon {
+    opacity: 1; /* 悬停时才显示图标 */
+}
+
+/* --- 底部元数据栏 --- */
+.scholar-meta {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* 胶囊标签通用样式 */
+.scholar-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 500;
+}
+
+/* 年份标签 */
+.scholar-badge.year {
+    background-color: #f8f9fa;
+    color: #636c72;
+    border: 1px solid #e9ecef;
+}
+
+/* 引用标签 (金色星星) */
+.scholar-badge.citation {
+    background-color: #fff8e1; /* 淡金色背景 */
+    color: #b7860b;            /* 深金色文字 */
+    border: 1px solid #ffeeba;
+}
+
+.scholar-badge.citation i {
+    color: #ffc107; /* 亮金色星星 */
+}
+
+/* 移动端适配 */
+@media (max-width: 768px) {
+    .stats-grid {
+        gap: 10px;
+    }
+    .stat-card {
+        padding: 15px;
+    }
+    .stat-number {
+        font-size: 2rem;
+    }
+    .scholar-item {
+        padding: 15px;
+    }
 }
