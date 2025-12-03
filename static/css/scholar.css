@@ -213,23 +213,3 @@ header h2::after {
     header h2 { font-size: 1.8rem; }
 }
 
-/* =========================================
-   精准去除 SELECTED RECENT PUBLICATIONS 的点
-   ========================================= */
-
-/* 1. 针对自动抓取列表容器 (#papers-list) 去除默认样式 */
-#papers-list ul, 
-#papers-list li {
-    list-style: none !important; /* 去掉默认黑点 */
-    list-style-type: none !important;
-    padding-left: 0 !important;   /* 可选：如果你想让它顶格 */
-    margin-left: 0 !important;
-}
-
-/* 2. 关键：去除 main.css 强加的“伪元素”圆点 */
-/* 只针对 #papers-list 下面的 li 去除 ::before */
-#papers-list li::before {
-    content: none !important;
-    display: none !important;
-    border: none !important;
-}
