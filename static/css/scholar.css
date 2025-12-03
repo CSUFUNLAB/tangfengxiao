@@ -52,10 +52,9 @@ a:hover {
 /* --- 3. 顶部背景与头像 (Header & Avatar) --- */
 .top-section {
     position: relative;
-    height: 350px !important; /* 调整高度 */
-    background-attachment: fixed; /* 视差滚动效果 */
-    background-position: center;
-    background-size: cover;
+    height: 350px !important; 
+    background-position: center top !important; /* 从顶部开始显示（确保校徽不被切掉） */
+    background-size: cover !important; 
 }
 
 /* 给背景图加一层蓝色遮罩，让文字更清晰 */
