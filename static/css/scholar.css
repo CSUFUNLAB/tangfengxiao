@@ -177,7 +177,7 @@ header h2::after {
     background-color: #ffffff;
     
     /* 核心修改 1: 加大内边距，让文字离边框远一点 */
-    padding: 25px 30px; 
+    padding: 10px 35px !important; 
     
     /* 核心修改 2: 加大卡片之间的距离 */
     margin-bottom: 20px; 
