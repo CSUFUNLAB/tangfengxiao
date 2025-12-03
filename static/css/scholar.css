@@ -193,21 +193,27 @@ header h2::after {
 }
 .scholar-item:hover { transform: translateX(8px); background-color: #fcfdff; box-shadow: 0 5px 15px rgba(0,0,0,0.08); }
 /* --- 论文标题 (加大字号) --- */
+/* --- 论文标题 (加深加粗版) --- */
 .scholar-title {
     display: inline;
-    font-size: 1.3rem; /* 增大到 1.3rem，与下方列表保持一致 */
-    font-weight: 200;  /* 降低字重，不仅是大，而且要细一点，匹配下方风格 */
-    color: #212529;    /* 使用深黑色 */
+    font-size: 1.1rem; /* 保持跟正文差不多大 */
+    
+    /* 核心修改 1: 加粗 */
+    font-weight: 500;  /* 之前是 200 (太细)，改为 500 (中等) 或 600 (加粗) */
+    
+    /* 核心修改 2: 纯黑 */
+    color: #000000;    /* 之前是深灰，改为纯黑让它更清晰 */
+    
     text-decoration: none;
     margin-right: 10px;
     line-height: 1.6;
-    font-family: "Mulish", sans-serif; /* 确保字体家族一致 */
+    font-family: "Mulish", sans-serif; 
     transition: color 0.2s;
 }
 
 .scholar-title:hover {
     color: #0056b3; 
-    text-decoration: underline; /* 悬停加下划线，保持风格一致 */
+    text-decoration: underline; 
 }
 
 /* --- 底部信息栏 (年份+引用) --- */
