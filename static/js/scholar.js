@@ -80,7 +80,8 @@ function renderPapers(papers, container) {
             </a>`;
         
         // 2. 元数据区域 (年份 + 引用)
-        let metaHtml = `<div class="scholar-meta">`;
+       // 改用 span，保证它能接在标题后面
+        let metaHtml = `<span class="scholar-meta">`;
         
         // 年份标签
         if (p.year && p.year !== "0") {
