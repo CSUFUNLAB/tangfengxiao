@@ -88,28 +88,42 @@ section .main-body{
 }
 
 
-/* --- 头像容器 (居中跨坐版) --- */
+/* --- 头像容器 (复刻图二：靠右跨坐版) --- */
 #avatar {
-    /* 1. 清除旧的浮动和定位干扰 */
-    float: none !important;
-    position: relative !important;
-    top: auto !important;
-    right: auto !important;
-    height: auto !important;
+    /* 1. 不再全屏居中，而是回归文档流 */
+    display: block !important;
     
-    /* 2. 核心：Flex布局实现绝对居中 */
-    display: flex !important;
-    justify-content: center !important;
-    align-items: center !important;
-    width: 100% !important;
+    /* 2. 让容器宽度跟随内容 */
+    width: auto !important;
     
-    /* 3. 垂直位置调整：负边距向上拉 */
-    /* 您的头像高度约160px，上拉90px正好跨坐一半 */
-    margin-top: -90px !important; 
-    margin-bottom: 20px !important; /* 底部留点空隙给名字 */
+    /* 3. 关键：向右浮动 */
+    float: right !important;
     
-    /* 4. 层级确保在横幅之上 */
+    /* 4. 位置微调：上拉跨坐 */
+    margin-top: -100px !important; 
+    
+    /* 5. 加上右边距，防止贴边太紧 (根据需要调整) */
+    margin-right: 50px !important; 
+    
+    /* 6. 层级与定位 */
+    position: relative;
     z-index: 100 !important;
+    
+    /* 7. 清除 flex 影响 */
+    justify-content: unset !important;
+    align-items: unset !important;
+}
+
+/* 针对手机端的适配：手机上还是居中好看 */
+@media (max-width: 768px) {
+    #avatar {
+        float: none !important;
+        text-align: center !important;
+        margin-right: auto !important;
+        margin-left: auto !important;
+        display: flex !important;
+        justify-content: center !important;
+    }
 }
 
 #avatar img {
