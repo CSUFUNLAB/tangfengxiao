@@ -60,7 +60,7 @@ a:hover {
     
     /* 核心修改：水平居中，垂直方向显示 75% 的位置 */
     /* 75% 大概就是建筑物和湖水交界的位置，视野最好 */
-    background-position: center 75% !important; 
+    background-position: center 60% !important; 
     
     background-size: cover !important;
 }
