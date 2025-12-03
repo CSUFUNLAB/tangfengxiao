@@ -124,27 +124,26 @@ section .main-body{
 /* =========================================
    强制头像样式修复 (Rectangular Frame)
    ========================================= */
-#avatar img {
-    /* 1. 尺寸设定 */
-    width: 160px !important; 
-    height: auto !important; /* 保持原始比例，不拉伸 */
+/* --- 头像容器位置调整 --- */
+#avatar {
+    /* 1. 强制取消浮动，确保能居中 */
+    float: none !important;
+    display: block !important;
     
-    /* 2. 形状设定：4px 是微圆角，0px 是直角 */
-    border-radius: 4px !important; 
+    /* 2. 水平居中 */
+    text-align: center !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
     
-    /* 3. 相框效果：白色粗边框 */
-    border: 6px solid #ffffff !important; 
+    /* 3. 垂直位置调整：负边距向上拉 */
+    /* -90px 大概是头像高度的一半，正好让它跨坐在横幅边缘 */
+    /* 如果觉得太高，把数字改小（比如 -70px）；如果觉得太低，把数字改大（比如 -110px） */
+    margin-top: -90px !important; 
     
-    /* 4. 立体阴影 */
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3) !important; 
+    /* 4. 确保层级在横幅之上 */
+    position: relative;
+    z-index: 10;
     
-    /* 5. 其他重置 */
-    background-color: #fff !important;
-    object-fit: cover !important;
-    transition: transform 0.3s ease;
-}
-
-/* 鼠标悬停微动 */
-#avatar img:hover {
-    transform: translateY(-5px) !important;
+    /* 5. 确保宽度占满容器，以便居中生效 */
+    width: 100%;
 }
