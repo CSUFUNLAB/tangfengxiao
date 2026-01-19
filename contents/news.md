@@ -1,4 +1,10 @@
 ## Recent News
+- 📢 2025.12.29, **TCOM**+1, Location Privacy-Aware High-Altitude Platforms Data Collection and Trajectory Optimization is accepted by IEEE Transactions on Communications, Congratulations to Zhiqi Guo🎉.
+- 📢 2025.12.29, **COMST**+1, A Survey on IEEE 802.11bn Wi-Fi 8: Advantages of Ultra High Reliability for Next-Generation Wireless LANs is accepted by IEEE Communications Surveys & Tutorials, Congratulations to Wangzhong Ning🎉.
+- 📢 2025.12.15, **TNSE**+1, Adaptive Large Language Model for Task Orchestration in 6G Space-Air-Ground Integrated Computing Power Networks is accepted by  IEEE Transactions on Network Science and Engineering, Congratulations to Wang Li🎉.
+- 📢 2025.11.13, **TON**+1, CiiNet: Self-Iterative Performance Optimization for Dynamic Networks Based on Causal Inference and Interpretable Evaluation is accepted by  IEEE Transactions on Networking, Congratulations to Xun Yuan🎉.
+- 📢 2025.11.06, **TCCN**+1, Flexible IRS-Assisted Grouped Rate-Splitting Multiple Access for Optimizing Sum-Rate in Integrated Satellite-Terrestrial Networks is accepted by  IEEE Transactions on Cognitive Communications and Networking, Congratulations to Jingjing Tan🎉.
+- 📢 2025.09.22, **TCCN**+1, Building Digital Twin Networks for Heterogeneous UAV Clusters: A Low-Latency Agent Gateway Selection Method is accepted by IEEE Transactions on Cognitive Communications and Networking, Congratulations to Linfeng Luo🎉.
 - 📢 2025.08.19, **TMC**+1, Unifying AI for Networking and Networking for AI: the Self-evolving Edge Learning is accepted by IEEE Transactions on Mobile Computing, Congratulations to Jie Tang🎉.
 - 📢 2025.07.11, **MWC**+1, Semantic Twin Network: Bridging Real-World and Virtual Networks with Semantics is accepted by IEEE Wireless Communications, Congratulations to Linfeng Luo🎉.
 - 📢 2025.05.12, **BDMA**+1, LSAP: A Learned Structure-Aware Pruning Point Cloud Classification Approach for Cyber Physical Social Intelligence is accepted by Big Data Mining and Analytics, Congratulations to Xinhong Liu🎉.
