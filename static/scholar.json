@@ -1,67 +1,67 @@
 {
-  "last_updated": "2026-01-19 01:15:58",
+  "last_updated": "2026-05-04 00:28:46",
   "citations": 9515,
   "h_index": 41,
   "i10_index": 66,
   "papers": [
     {
-      "title": "Adaptive Large Language Model for Task Orchestration in 6G Space-Air-Ground Integrated Computing Power Networks",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_QJD5MgAAAAJ&sortby=pubdate&citation_for_view=_QJD5MgAAAAJ:uLbwQdceFCQC",
+      "title": "PointShuffler: Accelerating Point Cloud Neural Networks on General-Purpose GPUs",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_QJD5MgAAAAJ&sortby=pubdate&citation_for_view=_QJD5MgAAAAJ:uJ-U7cs_P_0C",
+      "citation": 0,
+      "year": "2026"
+    },
+    {
+      "title": "HGNet: Hypergraph Learning for Dynamic Heterogeneous Wireless Network Performance Prediction",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_QJD5MgAAAAJ&sortby=pubdate&citation_for_view=_QJD5MgAAAAJ:j8SEvjWlNXcC",
+      "citation": 0,
+      "year": "2026"
+    },
+    {
+      "title": "Toward Efficient Zero Trust Space-Air-Ground Integrated Networks via Federated Reinforcement Learning with Blockchain",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_QJD5MgAAAAJ&sortby=pubdate&citation_for_view=_QJD5MgAAAAJ:fEOibwPWpKIC",
+      "citation": 0,
+      "year": "2026"
+    },
+    {
+      "title": "Task-Agentic Resource Scheduling in ISCC Networks via Multi-Agent LLMs",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_QJD5MgAAAAJ&sortby=pubdate&citation_for_view=_QJD5MgAAAAJ:35r97b3x0nAC",
+      "citation": 0,
+      "year": "2026"
+    },
+    {
+      "title": "FD-TE Diagnosis: Enhancing Microservice Fault Diagnosis With Frequency Domain Features and Centrality-Aware Time Encoding",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_QJD5MgAAAAJ&sortby=pubdate&citation_for_view=_QJD5MgAAAAJ:-_dYPAW6P2MC",
+      "citation": 0,
+      "year": "2026"
+    },
+    {
+      "title": "Breakout Local Search for Load-Balanced Federated Learning in Multi-BS Networks",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_QJD5MgAAAAJ&sortby=pubdate&citation_for_view=_QJD5MgAAAAJ:evX43VCCuoAC",
+      "citation": 0,
+      "year": "2026"
+    },
+    {
+      "title": "MSADM: Large Language Model (LLM) Assisted End-to-End Network Health Management Based on Multi-Scale Semanticization",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_QJD5MgAAAAJ&sortby=pubdate&citation_for_view=_QJD5MgAAAAJ:2KloaMYe4IUC",
+      "citation": 0,
+      "year": "2026"
+    },
+    {
+      "title": "An Ensemble Deep Reinforcement Learning–Based Asynchronous Scheduling Mechanism for 5G-TSN",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_QJD5MgAAAAJ&sortby=pubdate&citation_for_view=_QJD5MgAAAAJ:ZfRJV9d4-WMC",
+      "citation": 0,
+      "year": "2026"
+    },
+    {
+      "title": "Location Privacy-Aware High-Altitude Platforms Data Collection and Trajectory Optimization",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_QJD5MgAAAAJ&sortby=pubdate&citation_for_view=_QJD5MgAAAAJ:Fu2w8maKXqMC",
       "citation": 0,
       "year": "2025"
     },
     {
-      "title": "FaultDiffusion: Few-Shot Fault Time Series Generation with Diffusion Model",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_QJD5MgAAAAJ&sortby=pubdate&citation_for_view=_QJD5MgAAAAJ:UHK10RUVsp4C",
+      "title": "UAV Trajectory Optimization Based on Pointer Networks and Adaptive Region Partitioning",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_QJD5MgAAAAJ&sortby=pubdate&citation_for_view=_QJD5MgAAAAJ:tKAzc9rXhukC",
       "citation": 0,
-      "year": "2025"
-    },
-    {
-      "title": "CiiNet: Self-Iterative Performance Optimization for Dynamic Networks Based on Causal Inference and Interpretable Evaluation",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_QJD5MgAAAAJ&sortby=pubdate&citation_for_view=_QJD5MgAAAAJ:JQOojiI6XY0C",
-      "citation": 0,
-      "year": "2025"
-    },
-    {
-      "title": "Flexible IRS-Assisted Grouped Rate-Splitting Multiple Access for Optimizing Sum-Rate in Integrated Satellite-Terrestrial Networks",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_QJD5MgAAAAJ&sortby=pubdate&citation_for_view=_QJD5MgAAAAJ:_Ybze24A_UAC",
-      "citation": 0,
-      "year": "2025"
-    },
-    {
-      "title": "Wi-Fi 8: The Next Generation of Wireless Connectivity",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_QJD5MgAAAAJ&sortby=pubdate&citation_for_view=_QJD5MgAAAAJ:dQ2og3OwTAUC",
-      "citation": 0,
-      "year": "2025"
-    },
-    {
-      "title": "FGAA: Enhancing adversarial robustness in AIoT-enabled smart systems via Fine-Grained Activation Alignment",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_QJD5MgAAAAJ&sortby=pubdate&citation_for_view=_QJD5MgAAAAJ:hkOj_22Ku90C",
-      "citation": 0,
-      "year": "2025"
-    },
-    {
-      "title": "Building Digital Twin Networks for Heterogeneous UAV Clusters: A Low-Latency Agent Gateway Selection Method",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_QJD5MgAAAAJ&sortby=pubdate&citation_for_view=_QJD5MgAAAAJ:N5tVd3kTz84C",
-      "citation": 0,
-      "year": "2025"
-    },
-    {
-      "title": "Chain or tree? Re-evaluating complex reasoning from the perspective of a matrix of thought",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_QJD5MgAAAAJ&sortby=pubdate&citation_for_view=_QJD5MgAAAAJ:PR6Y55bgFSsC",
-      "citation": 0,
-      "year": "2025"
-    },
-    {
-      "title": "MTQA: Matrix of Thought for Enhanced Reasoning in Complex Question Answering",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_QJD5MgAAAAJ&sortby=pubdate&citation_for_view=_QJD5MgAAAAJ:ye4kPcJQO24C",
-      "citation": 0,
-      "year": "2025"
-    },
-    {
-      "title": "Unifying AI for Networking and Networking for AI: the Self-evolving Edge Learning",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_QJD5MgAAAAJ&sortby=pubdate&citation_for_view=_QJD5MgAAAAJ:LjlpjdlvIbIC",
-      "citation": 1,
       "year": "2025"
     }
   ]
