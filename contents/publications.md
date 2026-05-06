@@ -6,6 +6,16 @@
 
 
 ## JOURNALS
+- Jie Tang, Yeguang Qin, Jingjing Tan, Linfeng Luo, Yangfan Li, **Fengxiao Tang***, Feng Zeng, Ming Zhao, Nei Kato. **Toward Efficient Zero Trust Space-Air-Ground Integrated Networks via Federated Reinforcement Learning with Blockchain**. <u>IEEE Transactions on Communications</u> (2026). (JCR Q1, IF=8.3)
+
+- Tiao Tan, **Fengxiao Tang***,  Ming Zhao, Shinichiro Omachi, Nei Kato. **Task-Agentic Resource Scheduling in ISCC Networks via Multi-Agent LLMs**. <u>IEEE Communications Magazine</u> (2026). (JCR Q1, IF=8.2)
+
+- **Fengxiao Tang***, Xiaonan Wang, Xun Yuan, Linfeng Luo, Ming Zhao, Tianchi Huang, Nei Kato. **MSADM: Large Language Model (LLM) Assisted End-to-End Network Health Management Based on Multi-Scale Semanticization**. <u>IEEE Transactions on Mobile Computing</u> (2026). (JCR Q1, IF=7.7)
+
+- Wangzhong Ning, **Fengxiao Tang***,  Ming Zhao, Nei Kato. **A Survey on IEEE 802.11 bn Wi-Fi 8: Advantages of Ultra High Reliability for Next-Generation Wireless LANs**. <u>IEEE Communications Surveys & Tutorials</u> (2025). (JCR Q1, IF=34.4)
+
+ Zhiqi Guo, **Fengxiao Tang***, Tiao Tan, Linfeng Luo, Ming Zhao. **Location Privacy-Aware High-Altitude Platforms Data Collection and Trajectory Optimization**. <u>IEEE Transactions on Communications</u> (2025). (JCR Q1, IF=8.3)
+
 - Zhiqi Guo, **Fengxiao Tang***, Linfeng Luo, Ming Zhao, Nei Kato. **A Survey on Applications of Large Language Model-Driven Digital Twins for Intelligent Network Optimization**. <u>IEEE Communications Surveys & Tutorials</u> (2025). (JCR Q1, IF=34.4)
 
 - **Fengxiao Tang***, Linfeng Luo, Zhiqi Guo, Ming Zhao, Nei Kato. **Semantic Twin Network: Bridging Real-World and Virtual Networks with Semantics**. <u>IEEE Wireless Communications</u> (2025). (JCR Q1, IF=10.9)
@@ -152,6 +162,9 @@
 ---
 
 ## INTERNATIONAL CONFERENCES
+
+- Yangfan Li, Zhengjie Jin, Yue Tian, Mengquan Li, **Fengxiao Tang***, Ming Zhao, Cen Chen. **
+PointShuffler: Accelerating Point Cloud Neural Networks on General-Purpose GPUs**. <u> EUROSY 2026</u>.
 
 - Xinhong Liu, Xiaoliang Li, Yangfan Li*, **Fengxiao Tang***. **RTdetector: Deep Transformer Networks for Time Series Anomaly Detection Based on Reconstruction Trend**. <u> IJCAI 2025</u>.
 
