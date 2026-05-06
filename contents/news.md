@@ -1,4 +1,8 @@
 ## Recent News
+- 📢 2026.04.27, **EUROSYS**+1, PointShuffler: Accelerating Point Cloud Neural Networks on General-Purpose GPUs is accepted by Proceedings of the 21st European Conference on Computer Systems, Congratulations to Zhengjie Jin🎉.
+- 📢 2026.04.16, **TCOM**+1, Toward Efficient Zero Trust Space-Air-Ground Integrated Networks via Federated Reinforcement Learning with Blockchain is accepted by IEEE Transactions on Communications, Congratulations to Jie Tang🎉.
+- 📢 2026.04.03, **MCOM**+1, Task-Agentic Resource Scheduling in ISCC Networks via Multi-Agent LLMs is accepted by IEEE Communications Magazine, Congratulations to Tiao Tan🎉.
+- 📢 2026.02.27, **TMC**+1, MSADM: Large Language Model (LLM) Assisted End-to-End Network Health Management Based on Multi-Scale Semanticization is accepted by IEEE Transactions on Mobile Computing, Congratulations to Xiaonan Wang🎉.
 - 📢 2025.12.29, **TCOM**+1, Location Privacy-Aware High-Altitude Platforms Data Collection and Trajectory Optimization is accepted by IEEE Transactions on Communications, Congratulations to Zhiqi Guo🎉.
 - 📢 2025.12.29, **COMST**+1, A Survey on IEEE 802.11bn Wi-Fi 8: Advantages of Ultra High Reliability for Next-Generation Wireless LANs is accepted by IEEE Communications Surveys & Tutorials, Congratulations to Wangzhong Ning🎉.
 - 📢 2025.12.15, **TNSE**+1, Adaptive Large Language Model for Task Orchestration in 6G Space-Air-Ground Integrated Computing Power Networks is accepted by  IEEE Transactions on Network Science and Engineering, Congratulations to Wang Li🎉.
@@ -12,7 +16,6 @@
 - 📢 2025.05.02, **TON**+1, MPITE: Multidimensional Performance Evaluator for Interpretable and Traceable Network Performance Evaluation is accepted by IEEE Transactions on Networking, Congratulations to Xun Yuan🎉.
 - 📢 2025.04.28, **IJCAI**+1, RTdetector: Deep Transformer Networks for Time Series Anomaly Detection Based on Reconstruction Trend is accepted by International Joint Conference on Artificial Intelligence, Congratulations to Xinhong Liu🎉.
 - 📢 2025.04.09, **TMC**+1, Multi-Agent Reinforcement Learning in Adversarial Game Environments: Personalized Anti-Interference Strategies for Heterogeneous UAV Communication is accepted by IEEE Transactions on Mobile Computing, Congratulations to Yeguang Qin🎉.
-- 📢 2025.01.25, **OJCS**+1, UVtrack: Multi-Modal Indoor Seamless Localization Using Ultra-Wideband Communication and Vision Sensor is accepted by IEEE Open Journal of the Computer Society, Congratulations to Yi Xu🎉.
 - 📢 2025.01.17, **ICC**+1, Online Asynchronous Flow Scheduling Mechanism for 5G-TSN Networks is accepted by EEE International Conference on Communications, Congratulations to Sifang Long, Best Paper Award🎉.
 - 📢 2025.01.07, **COMST**+1, A Survey on Intelligent Network Operations and Performance Optimization Based on Large Language Models is accepted by  IEEE Communications Surveys & Tutorials, Congratulations to Sifang Long🎉.
 - 📢 2024.12.18, **MNET**+1, Utilizing Large Language Models for Advanced Optimization and Intelligent Management in Space-Air-Ground Integrated Networks is accepted by IEEE Network, Congratulations to Jie Tang🎉.
@@ -22,5 +25,4 @@
 - 📢 2024.09.30, **JBHI**+1, CFI-Net: A Choquet Fuzzy Integral Based Ensemble Network With PSO-Optimized Fuzzy Measures for Diagnosing Multiple Skin Diseases Including Mpox is accepted by IEEE Journal of Biomedical and Health Informatics, Congratulations to Sohaib Asif🎉.
 - 📢 2024.06.07, **MNET**+1, AIGC-Based Evolvable Digital Twin Networks: A Road to the Intelligent Metaverse is accepted by IEEE Network, Congratulations to Xuehan Chen🎉
 - 📢 2024.04.16, **TMC**+1, Differentiated Federated Reinforcement Learning Based Traffic Offloading on Space-Air-Ground Integrated Networks is accepted by IEEE Transactions on Mobile Computing, Congratulations to Yeguang Qin🎉.
-- 📢 2024.04.02, **IOTJ**+1, Deep-Reinforcement-Learning-Based Content Caching in Satellite–Terrestrial Assisted Airborne Communications is accepted by  IEEE Internet of Things Journal, Congratulations to Zhiqi Guo🎉. 
 - 📢 2024.02.23, **COMST**+1, Frequency Selective Surface Toward 6G Communication Systems: A Contemporary Survey is accepted by IEEE Communications Surveys & Tutorials, Congratulations to Xuehan Chen🎉.
