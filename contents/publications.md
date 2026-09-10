@@ -6,6 +6,22 @@
 
 
 ## JOURNALS
+- Tiao Tan, **Fengxiao Tang***, Linfeng Luo, Yi Li, Ming Zhao, Nei Kato. **Adapting network information into semantics for generalizable and plug-and-play multi-scenario network diagnosis**. <u>IEEE Transactions on Communications</u> (2026). (JCR Q1, IF=8.3)
+
+- Xun Yuan, Xiaonan Wang,  Mina Kato, **Fengxiao Tang***, Ming Zhao, Nei Kato. **MTB-Health: Task-Oriented Behavior Tree-Based Performance and Health Evaluation in Dynamic Networks**. <u>IEEE/ACM Transactions on Networking</u> (2026).
+
+- Xinming Yu, Xinhong Liu, Tianxiang Sun, Yangfan Li, **Fengxiao Tang***, Ming Zhao, Nei Kato. **CARAF: Root Cause Analysis through Granger Causal Graphs with Ambiguous Residual Factors in Microservice Systems**. <u>IEEE Transactions on Emerging Topics in Computing</u> (2026). (JCR Q1, IF=4.8)
+
+- Yeguang Qin, Jie Tang, **Fengxiao Tang***, Ming Zhao, Nei Kato. **Collaborative Trajectory and Resource Optimization in Multi-UAV MEC under Jamming: An LLM-guided MARL Framework**. <u>IEEE Transactions on Communications</u> (2026). (JCR Q1, IF=8.3)
+
+- Shi Chen, Yingying Wu, Bomin Mao, Fengxiao Tang, Nei Kato. **Space Computing Power Networks: A Survey**. <u>IEEE Communications Surveys & Tutorials</u> (2026). (JCR Q1, IF=34.4)
+
+- Saif Ur Rehman Khan, Ming Zhao, Fengxiao Tang, Yangfan Li, Chenggen Xiao, Xiangmin Li. **Lightweight medical diagnosis via uncertainty-aware fuzzy knowledge distillation**. <u>Neurocomputing</u> (2026). (JCR Q1, IF=5.5)
+
+- Zongzong Wu, Ming Zhao, Yufeng Li, Huan Li, Shisong Peng, Nei Kato, **Fengxiao Tang***. **Kgv: Integrating large language models with knowledge graphs for cyber threat intelligence credibility assessment**. <u>IEEE Transactions on Mobile Computing</u> (2026). (JCR Q1, IF=7.7)
+
+- Lusha Mo, **Fengxiao Tang***, Linfeng Luo, Ming Zhao, Nei Kato. **HGNet: Hypergraph Learning for Dynamic Heterogeneous Wireless Network Performance Prediction**. <u> IEEE Transactions on Vehicular Technology</u> (2026). (JCR Q1, IF=6.1)
+
 - Jie Tang, Yeguang Qin, Jingjing Tan, Linfeng Luo, Yangfan Li, **Fengxiao Tang***, Feng Zeng, Ming Zhao, Nei Kato. **Toward Efficient Zero Trust Space-Air-Ground Integrated Networks via Federated Reinforcement Learning with Blockchain**. <u>IEEE Transactions on Communications</u> (2026). (JCR Q1, IF=8.3)
 
 - Tiao Tan, **Fengxiao Tang***,  Ming Zhao, Shinichiro Omachi, Nei Kato. **Task-Agentic Resource Scheduling in ISCC Networks via Multi-Agent LLMs**. <u>IEEE Communications Magazine</u> (2026). (JCR Q1, IF=8.2)
@@ -23,8 +39,6 @@
 - Jingjing Tan, **Fengxiao Tang***, Ming Zhao, Nei Kato. **Outage Probability, Performance, and Fairness Analysis of Space-Air-Ground Integrated Network (SAGIN): UAV Altitude and Position Angle**. <u>IEEE Transactions on Wireless Communications</u> (2025). (JCR Q1, IF=10.7)
 
 - Yi Xu, Zhigang Chen, Ming Zhao, **Fengxiao Tang***, Yangfang Li, Jiaqi Liu, Nei Kato. **UVtrack: Multi-Modal Indoor Seamless Localization Using Ultra-Wideband Communication and Vision Sensors**. <u>IEEE Open Journal of the Computer Society</u> (2025). (JCR Q1, IF=8.2)
-
-- Tiao Tan, **Fengxiao Tang***, Ming Zhao. **Adapting Network Information to Semantics for Generalizable and Plug-and-Play Multi-Scenario Network Diagnosis**. arXiv:2501.16842 (2025).
 
 - Yeguang Qin, Jie Tang, **Fengxiao Tang***, Ming Zhao, Nei Kato. **Multi-Agent Reinforcement Learning in Adversarial Game Environments: Personalized Anti-Interference Strategies for Heterogeneous UAV Communication**. <u>IEEE Transactions on Mobile Computing</u> (2025). (JCR Q1, IF=7.7)
 
@@ -52,12 +66,6 @@
 - **Fengxiao Tang***, Linfeng Luo, Zhiqi Guo, Y Li, Ming Zhao, Nei Kato. **Semi-Distributed Network Fault Diagnosis Based on Digital Twin Network in Highly Dynamic Heterogeneous Networks**. <u>IEEE Transactions on Mobile Computing</u> (JCR Q1, IF=7.7)
 
 - Y Li, M Li, C Chen, X Zou, H Shao, **Fengxiao Tang**, K Li. **SimDiff: Point Cloud Acceleration by Utilizing Spatial Similarity and Differential Execution**. <u>IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems</u> (2024). (JCR Q2, IF=2.7)
-
-- Zongzong Wu, **Fengxiao Tang***, Ming Zhao, Yufeng Li. **KGV: Integrating Large Language Models with Knowledge Graphs for Cyber Threat Intelligence Credibility Assessment**. arXiv:2408.08088 (2024).
-
-- Linfeng Luo, **Fengxiao Tang***, Xiyu Liu, Zhiqi Guo, Zihao Qiu, Ming Zhao. **Federated Hypergraph Learning with Hyperedge Completion**. arXiv:2408.05160 (2024).
-
-- **Fengxiao Tang***, Xiaonan Wang, Xun Yuan, Linfeng Luo, Ming Zhao, Nei Kato. **Large Language Model (LLM) Assisted End-to-End Network Health Management Based on Multi-Scale Semanticization**. arXiv:2406.08305 (2024).
 
 - Sohaib Asif, Ming Zhao, Yangfan Li, **Fengxiao Tang**, Yusen Zhu. **CFI-Net: A Choquet Fuzzy Integral Based Ensemble Network with PSO-Optimized Fuzzy Measures for Diagnosing Multiple Skin Diseases Including Mpox**. <u>IEEE Journal of Biomedical and Health Informatics</u> (2024). (JCR Q1, IF=7.1)
 

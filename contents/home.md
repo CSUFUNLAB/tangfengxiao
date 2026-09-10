@@ -13,9 +13,13 @@ https://scholar.google.com/citations?hl=zh-CN&user=_QJD5MgAAAAJ
 **Associate Editor**：IEEE Trans on Vehicular Technology.
 
 ##### IEEE Conference Activities
+
+**Executive Chair**： IEEE ICEAI 2026.\
 **Program Vice-Chair**：IEEE Scalcom, 2024.\
 **Workshop Co-Chair**,"Cooperative Communications and Computations in Space-Air-Ground-Sea Integrated Networks" in IEEE ICC 2024.\
-**Workshop Co-Chair**,"Cooperative Communications and Computations in Space-Air-Ground-Sea Integrated Networks" in IEEE ICC 2025.
+**Workshop Co-Chair**,"Cooperative Communications and Computations in Space-Air-Ground-Sea Integrated Networks" in IEEE ICC 2025.\
+**Symposium Co-Chair**,"IoT & Sensor Networks" in IEEE ICC 2026.
+**IEEE/CIC ICCC tutorial**, "Communication Network Fault Diagnosis: From Fundamentals to LLM-Driven Autonomous Diagnostics", 2026
 
 
 #### Academic Background
