@@ -19,6 +19,7 @@ https://scholar.google.com/citations?hl=zh-CN&user=_QJD5MgAAAAJ
 **Workshop Co-Chair**,"Cooperative Communications and Computations in Space-Air-Ground-Sea Integrated Networks" in IEEE ICC 2024.\
 **Workshop Co-Chair**,"Cooperative Communications and Computations in Space-Air-Ground-Sea Integrated Networks" in IEEE ICC 2025.\
 **Symposium Co-Chair**,"IoT & Sensor Networks" in IEEE ICC 2026.\
+
 **IEEE/CIC ICCC tutorial**, "Communication Network Fault Diagnosis: From Fundamentals to LLM-Driven Autonomous Diagnostics", 2026
 
 
