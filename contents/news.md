@@ -27,6 +27,5 @@
 - 📢 2024.11.29, **TWC**+1, Outage Probability, Performance, and Fairness Analysis of Space–Air–Ground Integrated Network (SAGIN): UAV Altitude and Position Angle is accepted by IEEE Transactions on Wireless Communications, Congratulations to Jingjing Tan🎉.
 - 📢 2024.09.30, **MNET**+1, 6G Comprehensive Intelligence: Network Operations and Optimization Based on Large Language Models is accepted by IEEE Network, Congratulations to Sifang Long🎉.
 - 📢 2024.09.30, **JBHI**+1, CFI-Net: A Choquet Fuzzy Integral Based Ensemble Network With PSO-Optimized Fuzzy Measures for Diagnosing Multiple Skin Diseases Including Mpox is accepted by IEEE Journal of Biomedical and Health Informatics, Congratulations to Sohaib Asif🎉.
-- 📢 2024.06.07, **MNET**+1, AIGC-Based Evolvable Digital Twin Networks: A Road to the Intelligent Metaverse is accepted by IEEE Network, Congratulations to Xuehan Chen🎉
 - 📢 2024.04.16, **TMC**+1, Differentiated Federated Reinforcement Learning Based Traffic Offloading on Space-Air-Ground Integrated Networks is accepted by IEEE Transactions on Mobile Computing, Congratulations to Yeguang Qin🎉.
 - 📢 2024.02.23, **COMST**+1, Frequency Selective Surface Toward 6G Communication Systems: A Contemporary Survey is accepted by IEEE Communications Surveys & Tutorials, Congratulations to Xuehan Chen🎉.
