@@ -4,7 +4,6 @@
 - 📢 2026.07.17, **TCOM**+1, Collaborative Trajectory and Resource Optimization in Multi-UAV MEC under Jamming: An LLM-guided MARL Framework is accepted by IEEE Transactions on Communications, Congratulations to Yeguang Qin🎉.
 - 📢 2026.05.12, **TMC**+1, Kgv: Integrating large language models with knowledge graphs for cyber threat intelligence credibility assessment is accepted by IEEE Transactions on Mobile Computing, Congratulations to Zongye Wu🎉.
 - 📢 2026.04.27, **EUROSYS**+1, PointShuffler: Accelerating Point Cloud Neural Networks on General-Purpose GPUs is accepted by Proceedings of the 21st European Conference on Computer Systems, Congratulations to Zhengjie Jin🎉.
-- 📢 2026.04.27, **EUROSYS**+1, PointShuffler: Accelerating Point Cloud Neural Networks on General-Purpose GPUs is accepted by Proceedings of the 21st European Conference on Computer Systems, Congratulations to Zhengjie Jin🎉.
 - 📢 2026.04.16, **TCOM**+1, Toward Efficient Zero Trust Space-Air-Ground Integrated Networks via Federated Reinforcement Learning with Blockchain is accepted by IEEE Transactions on Communications, Congratulations to Jie Tang🎉.
 - 📢 2026.04.03, **MCOM**+1, Task-Agentic Resource Scheduling in ISCC Networks via Multi-Agent LLMs is accepted by IEEE Communications Magazine, Congratulations to Tiao Tan🎉.
 - 📢 2026.02.27, **TMC**+1, MSADM: Large Language Model (LLM) Assisted End-to-End Network Health Management Based on Multi-Scale Semanticization is accepted by IEEE Transactions on Mobile Computing, Congratulations to Xiaonan Wang🎉.
