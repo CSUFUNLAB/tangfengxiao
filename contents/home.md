@@ -1,16 +1,19 @@
+Fengxiao Tang is a Professor and Ph.D. supervisor in the School of Computer Science and Engineering at Central South University. He received his Ph.D. from Tohoku University in 2019, where he served as an Assistant Professor (2019–2020) and Associate Professor (2020–2021). He also holds a Distinguished Professor appointment at Tohoku University from July 1, 2025 to June 30, 2030.
 
-Fengxiao Tang is an full professor with School of Computer Science and Engineering, Central South University and a distinguished professor in the Graduate School of Information Sciences(GSIS), Tohoku University. He has been an Assistant Professor from 2019 to 2020 and an Associate Professor from 2020 to 2021 at the Graduate School of Information Sciences (GSIS) of Tohoku University. His research interests are unmanned aerial vehicles system, IoT security, game theory optimization, network traffic control and machine learning algorithm. He was a recipient of the prestigious Dean's and President's Awards from Tohoku University in 2019, and several best paper awards at conferences including IC-NIDC 2018/2023, GLOBECOM 2017/2018. He was also a recipient of the prestigious Funai Research Award in 2020, IEEE ComSoc Asia-Pacific (AP) Outstanding Paper Award in 2020 and IEEE ComSoc AP Outstanding Young Researcher Award in 2021.sity.
+His research focuses on intelligent management of complex networks, digital twins and semantic twins, network performance modeling, causal and interpretable evaluation, and large language model-driven network health management. His work connects learning-based network control, digital-twin resource optimization, and semantic reasoning for autonomous network operations.
+
+[Explore the interactive academic profile](https://fengxiao-academic-portrait.saphilos.chatgpt.site) · [Profile administration](https://fengxiao-academic-portrait.saphilos.chatgpt.site/admin)
 
 #### Email
 tangfengxiao@csu.edu.cn
 
-#### Google Scolar
+#### Google Scholar
 https://scholar.google.com/citations?hl=zh-CN&user=_QJD5MgAAAAJ
 
 ####  Academic Services
 ##### IEEE Journal Editorial
-**Area Editor**：IEEE Internet of Thing Journal.\
-**Associate Editor**：IEEE Trans on Vehicular Technology.
+**Area Editor**：IEEE Internet of Things Journal.\
+**Associate Editor**：IEEE Transactions on Vehicular Technology.
 
 ##### IEEE Conference Activities
 
